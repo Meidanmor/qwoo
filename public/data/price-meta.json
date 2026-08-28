@@ -1,0 +1,12 @@
+{
+    "global": {
+        "min_price": 119,
+        "max_price": 250
+    },
+    "categories": {
+        "15": {
+            "min_price": 119,
+            "max_price": 250
+        }
+    }
+}

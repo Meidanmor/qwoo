@@ -1,0 +1,2300 @@
+[
+    {
+        "id": 153,
+        "name": "Relaxed Linen Pants",
+        "slug": "relaxed-linen-pants",
+        "parent": 0,
+        "type": "simple",
+        "variation": "",
+        "permalink": "https://api.meidanm.net/product/relaxed-linen-pants/",
+        "sku": "",
+        "short_description": "",
+        "description": "<p data-start=\"408\" data-end=\"581\">Breathable linen pants with a relaxed fit and comfortable waistband. Perfect for casual summer outfits.</p>",
+        "on_sale": true,
+        "prices": {
+            "price": "18800",
+            "regular_price": "20000",
+            "sale_price": "18800",
+            "price_range": null,
+            "currency_code": "ILS",
+            "currency_symbol": "\u20aa",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "\u20aa",
+            "currency_suffix": ""
+        },
+        "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>200.00</span></del> <span class=\"screen-reader-text\">Original price was: &#8362;200.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>188.00</span></ins><span class=\"screen-reader-text\">Current price is: &#8362;188.00.</span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [
+            {
+                "id": 91,
+                "src": "https://api.meidanm.net/wp-content/uploads/2026/07/leather_crossbody_bag_in_black._premium.webp",
+                "thumbnail": "https://api.meidanm.net/wp-content/uploads/2026/07/leather_crossbody_bag_in_black._premium-300x300.webp",
+                "srcset": "https://api.meidanm.net/wp-content/uploads/2026/07/leather_crossbody_bag_in_black._premium.webp 1024w, https://api.meidanm.net/wp-content/uploads/2026/07/leather_crossbody_bag_in_black._premium-300x300.webp 300w, https://api.meidanm.net/wp-content/uploads/2026/07/leather_crossbody_bag_in_black._premium-150x150.webp 150w, https://api.meidanm.net/wp-content/uploads/2026/07/leather_crossbody_bag_in_black._premium-768x768.webp 768w, https://api.meidanm.net/wp-content/uploads/2026/07/leather_crossbody_bag_in_black._premium-600x600.webp 600w, https://api.meidanm.net/wp-content/uploads/2026/07/leather_crossbody_bag_in_black._premium-100x100.webp 100w",
+                "sizes": "(max-width: 1024px) 100vw, 1024px",
+                "thumbnail_srcset": "https://api.meidanm.net/wp-content/uploads/2026/07/leather_crossbody_bag_in_black._premium-300x300.webp 300w, https://api.meidanm.net/wp-content/uploads/2026/07/leather_crossbody_bag_in_black._premium-150x150.webp 150w, https://api.meidanm.net/wp-content/uploads/2026/07/leather_crossbody_bag_in_black._premium-768x768.webp 768w, https://api.meidanm.net/wp-content/uploads/2026/07/leather_crossbody_bag_in_black._premium-600x600.webp 600w, https://api.meidanm.net/wp-content/uploads/2026/07/leather_crossbody_bag_in_black._premium-100x100.webp 100w, https://api.meidanm.net/wp-content/uploads/2026/07/leather_crossbody_bag_in_black._premium.webp 1024w",
+                "thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+                "name": "leather_crossbody_bag_in_black._premium",
+                "alt": ""
+            }
+        ],
+        "categories": [
+            {
+                "id": 17,
+                "name": "Clothing",
+                "slug": "clothing",
+                "link": "https://api.meidanm.net/product-category/clothing/"
+            }
+        ],
+        "tags": [],
+        "brands": [],
+        "attributes": [],
+        "variations": [],
+        "grouped_products": [],
+        "has_options": false,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "stock_availability": {
+            "text": "",
+            "class": "in-stock"
+        },
+        "sold_individually": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "formatted_weight": "N/A",
+        "formatted_dimensions": "N/A",
+        "add_to_cart": {
+            "text": "Add to cart",
+            "description": "Add to cart: &ldquo;Relaxed Linen Pants&rdquo;",
+            "url": "/wp-json/wc/store/products?page=1&#038;per_page=6&#038;include_sort_meta=true&#038;add-to-cart=153",
+            "single_text": "Add to cart",
+            "minimum": 1,
+            "maximum": 9999,
+            "multiple_of": 1
+        },
+        "is_password_protected": false,
+        "extensions": {
+            "qwoo": {
+                "default_category": {
+                    "id": 17,
+                    "name": "Clothing",
+                    "slug": "clothing"
+                }
+            },
+            "offline_order": {
+                "menu_order": 0,
+                "total_sales": 0,
+                "average_rating": 0
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products/153",
+                    "targetHints": {
+                        "allow": [
+                            "GET"
+                        ]
+                    }
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products"
+                }
+            ],
+            "related": [
+                {
+                    "embeddable": true,
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products?related=153&per_page=10"
+                }
+            ]
+        }
+    },
+    {
+        "id": 152,
+        "name": "Leather Crossbody Bag",
+        "slug": "leather-crossbody-bag",
+        "parent": 0,
+        "type": "simple",
+        "variation": "",
+        "permalink": "https://api.meidanm.net/product/leather-crossbody-bag/",
+        "sku": "",
+        "short_description": "",
+        "description": "<p data-start=\"408\" data-end=\"581\">Compact crossbody bag with a premium finish and practical storage. Designed for carrying daily essentials in style.</p>",
+        "on_sale": true,
+        "prices": {
+            "price": "24900",
+            "regular_price": "30000",
+            "sale_price": "24900",
+            "price_range": null,
+            "currency_code": "ILS",
+            "currency_symbol": "\u20aa",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "\u20aa",
+            "currency_suffix": ""
+        },
+        "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>300.00</span></del> <span class=\"screen-reader-text\">Original price was: &#8362;300.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>249.00</span></ins><span class=\"screen-reader-text\">Current price is: &#8362;249.00.</span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [
+            {
+                "id": 85,
+                "src": "https://api.meidanm.net/wp-content/uploads/2026/07/relaxed_linen_pants_in_a_light_oatmeal.webp",
+                "thumbnail": "https://api.meidanm.net/wp-content/uploads/2026/07/relaxed_linen_pants_in_a_light_oatmeal-300x300.webp",
+                "srcset": "https://api.meidanm.net/wp-content/uploads/2026/07/relaxed_linen_pants_in_a_light_oatmeal.webp 1024w, https://api.meidanm.net/wp-content/uploads/2026/07/relaxed_linen_pants_in_a_light_oatmeal-300x300.webp 300w, https://api.meidanm.net/wp-content/uploads/2026/07/relaxed_linen_pants_in_a_light_oatmeal-150x150.webp 150w, https://api.meidanm.net/wp-content/uploads/2026/07/relaxed_linen_pants_in_a_light_oatmeal-768x768.webp 768w, https://api.meidanm.net/wp-content/uploads/2026/07/relaxed_linen_pants_in_a_light_oatmeal-600x600.webp 600w, https://api.meidanm.net/wp-content/uploads/2026/07/relaxed_linen_pants_in_a_light_oatmeal-100x100.webp 100w",
+                "sizes": "(max-width: 1024px) 100vw, 1024px",
+                "thumbnail_srcset": "https://api.meidanm.net/wp-content/uploads/2026/07/relaxed_linen_pants_in_a_light_oatmeal-300x300.webp 300w, https://api.meidanm.net/wp-content/uploads/2026/07/relaxed_linen_pants_in_a_light_oatmeal-150x150.webp 150w, https://api.meidanm.net/wp-content/uploads/2026/07/relaxed_linen_pants_in_a_light_oatmeal-768x768.webp 768w, https://api.meidanm.net/wp-content/uploads/2026/07/relaxed_linen_pants_in_a_light_oatmeal-600x600.webp 600w, https://api.meidanm.net/wp-content/uploads/2026/07/relaxed_linen_pants_in_a_light_oatmeal-100x100.webp 100w, https://api.meidanm.net/wp-content/uploads/2026/07/relaxed_linen_pants_in_a_light_oatmeal.webp 1024w",
+                "thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+                "name": "relaxed_linen_pants_in_a_light_oatmeal",
+                "alt": ""
+            }
+        ],
+        "categories": [
+            {
+                "id": 19,
+                "name": "Accessories",
+                "slug": "accessories",
+                "link": "https://api.meidanm.net/product-category/accessories/"
+            }
+        ],
+        "tags": [],
+        "brands": [],
+        "attributes": [],
+        "variations": [],
+        "grouped_products": [],
+        "has_options": false,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "stock_availability": {
+            "text": "",
+            "class": "in-stock"
+        },
+        "sold_individually": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "formatted_weight": "N/A",
+        "formatted_dimensions": "N/A",
+        "add_to_cart": {
+            "text": "Add to cart",
+            "description": "Add to cart: &ldquo;Leather Crossbody Bag&rdquo;",
+            "url": "/wp-json/wc/store/products?page=1&#038;per_page=6&#038;include_sort_meta=true&#038;add-to-cart=152",
+            "single_text": "Add to cart",
+            "minimum": 1,
+            "maximum": 9999,
+            "multiple_of": 1
+        },
+        "is_password_protected": false,
+        "extensions": {
+            "qwoo": {
+                "default_category": {
+                    "id": 19,
+                    "name": "Accessories",
+                    "slug": "accessories"
+                }
+            },
+            "offline_order": {
+                "menu_order": 0,
+                "total_sales": 0,
+                "average_rating": 0
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products/152",
+                    "targetHints": {
+                        "allow": [
+                            "GET"
+                        ]
+                    }
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products"
+                }
+            ],
+            "related": [
+                {
+                    "embeddable": true,
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products?related=152&per_page=10"
+                }
+            ]
+        }
+    },
+    {
+        "id": 151,
+        "name": "Stainless Steel Water Bottle",
+        "slug": "stainless-steel-water-bottle",
+        "parent": 0,
+        "type": "simple",
+        "variation": "",
+        "permalink": "https://api.meidanm.net/product/stainless-steel-water-bottle/",
+        "sku": "",
+        "short_description": "",
+        "description": "<p data-start=\"408\" data-end=\"581\">Insulated stainless steel bottle designed to keep drinks cold or hot throughout the day. Durable, reusable, and travel friendly.</p>",
+        "on_sale": true,
+        "prices": {
+            "price": "18700",
+            "regular_price": "20000",
+            "sale_price": "18700",
+            "price_range": null,
+            "currency_code": "ILS",
+            "currency_symbol": "\u20aa",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "\u20aa",
+            "currency_suffix": ""
+        },
+        "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>200.00</span></del> <span class=\"screen-reader-text\">Original price was: &#8362;200.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>187.00</span></ins><span class=\"screen-reader-text\">Current price is: &#8362;187.00.</span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [
+            {
+                "id": 87,
+                "src": "https://api.meidanm.net/wp-content/uploads/2026/07/stainless_steel_water_bottle_in_a_matte.webp",
+                "thumbnail": "https://api.meidanm.net/wp-content/uploads/2026/07/stainless_steel_water_bottle_in_a_matte-300x300.webp",
+                "srcset": "https://api.meidanm.net/wp-content/uploads/2026/07/stainless_steel_water_bottle_in_a_matte.webp 1024w, https://api.meidanm.net/wp-content/uploads/2026/07/stainless_steel_water_bottle_in_a_matte-300x300.webp 300w, https://api.meidanm.net/wp-content/uploads/2026/07/stainless_steel_water_bottle_in_a_matte-150x150.webp 150w, https://api.meidanm.net/wp-content/uploads/2026/07/stainless_steel_water_bottle_in_a_matte-768x768.webp 768w, https://api.meidanm.net/wp-content/uploads/2026/07/stainless_steel_water_bottle_in_a_matte-600x600.webp 600w, https://api.meidanm.net/wp-content/uploads/2026/07/stainless_steel_water_bottle_in_a_matte-100x100.webp 100w",
+                "sizes": "(max-width: 1024px) 100vw, 1024px",
+                "thumbnail_srcset": "https://api.meidanm.net/wp-content/uploads/2026/07/stainless_steel_water_bottle_in_a_matte-300x300.webp 300w, https://api.meidanm.net/wp-content/uploads/2026/07/stainless_steel_water_bottle_in_a_matte-150x150.webp 150w, https://api.meidanm.net/wp-content/uploads/2026/07/stainless_steel_water_bottle_in_a_matte-768x768.webp 768w, https://api.meidanm.net/wp-content/uploads/2026/07/stainless_steel_water_bottle_in_a_matte-600x600.webp 600w, https://api.meidanm.net/wp-content/uploads/2026/07/stainless_steel_water_bottle_in_a_matte-100x100.webp 100w, https://api.meidanm.net/wp-content/uploads/2026/07/stainless_steel_water_bottle_in_a_matte.webp 1024w",
+                "thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+                "name": "stainless_steel_water_bottle_in_a_matte",
+                "alt": ""
+            }
+        ],
+        "categories": [
+            {
+                "id": 21,
+                "name": "Lifestyle",
+                "slug": "lifestyle",
+                "link": "https://api.meidanm.net/product-category/lifestyle/"
+            }
+        ],
+        "tags": [],
+        "brands": [],
+        "attributes": [],
+        "variations": [],
+        "grouped_products": [],
+        "has_options": false,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "stock_availability": {
+            "text": "",
+            "class": "in-stock"
+        },
+        "sold_individually": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "formatted_weight": "N/A",
+        "formatted_dimensions": "N/A",
+        "add_to_cart": {
+            "text": "Add to cart",
+            "description": "Add to cart: &ldquo;Stainless Steel Water Bottle&rdquo;",
+            "url": "/wp-json/wc/store/products?page=1&#038;per_page=6&#038;include_sort_meta=true&#038;add-to-cart=151",
+            "single_text": "Add to cart",
+            "minimum": 1,
+            "maximum": 9999,
+            "multiple_of": 1
+        },
+        "is_password_protected": false,
+        "extensions": {
+            "qwoo": {
+                "default_category": {
+                    "id": 21,
+                    "name": "Lifestyle",
+                    "slug": "lifestyle"
+                }
+            },
+            "offline_order": {
+                "menu_order": 0,
+                "total_sales": 1,
+                "average_rating": 0
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products/151",
+                    "targetHints": {
+                        "allow": [
+                            "GET"
+                        ]
+                    }
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products"
+                }
+            ],
+            "related": [
+                {
+                    "embeddable": true,
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products?related=151&per_page=10"
+                }
+            ]
+        }
+    },
+    {
+        "id": 150,
+        "name": "Minimalist Running Sneakers",
+        "slug": "minimalist-running-sneakers",
+        "parent": 0,
+        "type": "simple",
+        "variation": "",
+        "permalink": "https://api.meidanm.net/product/minimalist-running-sneakers/",
+        "sku": "",
+        "short_description": "",
+        "description": "<p data-start=\"408\" data-end=\"581\">Lightweight sneakers combining comfort and clean design. Built for daily movement with a versatile style.</p>",
+        "on_sale": true,
+        "prices": {
+            "price": "18700",
+            "regular_price": "20000",
+            "sale_price": "18700",
+            "price_range": null,
+            "currency_code": "ILS",
+            "currency_symbol": "\u20aa",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "\u20aa",
+            "currency_suffix": ""
+        },
+        "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>200.00</span></del> <span class=\"screen-reader-text\">Original price was: &#8362;200.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>187.00</span></ins><span class=\"screen-reader-text\">Current price is: &#8362;187.00.</span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [
+            {
+                "id": 94,
+                "src": "https://api.meidanm.net/wp-content/uploads/2026/07/minimalist_running_sneakers_in_white_and.webp",
+                "thumbnail": "https://api.meidanm.net/wp-content/uploads/2026/07/minimalist_running_sneakers_in_white_and-300x300.webp",
+                "srcset": "https://api.meidanm.net/wp-content/uploads/2026/07/minimalist_running_sneakers_in_white_and.webp 1024w, https://api.meidanm.net/wp-content/uploads/2026/07/minimalist_running_sneakers_in_white_and-300x300.webp 300w, https://api.meidanm.net/wp-content/uploads/2026/07/minimalist_running_sneakers_in_white_and-150x150.webp 150w, https://api.meidanm.net/wp-content/uploads/2026/07/minimalist_running_sneakers_in_white_and-768x768.webp 768w, https://api.meidanm.net/wp-content/uploads/2026/07/minimalist_running_sneakers_in_white_and-600x600.webp 600w, https://api.meidanm.net/wp-content/uploads/2026/07/minimalist_running_sneakers_in_white_and-100x100.webp 100w",
+                "sizes": "(max-width: 1024px) 100vw, 1024px",
+                "thumbnail_srcset": "https://api.meidanm.net/wp-content/uploads/2026/07/minimalist_running_sneakers_in_white_and-300x300.webp 300w, https://api.meidanm.net/wp-content/uploads/2026/07/minimalist_running_sneakers_in_white_and-150x150.webp 150w, https://api.meidanm.net/wp-content/uploads/2026/07/minimalist_running_sneakers_in_white_and-768x768.webp 768w, https://api.meidanm.net/wp-content/uploads/2026/07/minimalist_running_sneakers_in_white_and-600x600.webp 600w, https://api.meidanm.net/wp-content/uploads/2026/07/minimalist_running_sneakers_in_white_and-100x100.webp 100w, https://api.meidanm.net/wp-content/uploads/2026/07/minimalist_running_sneakers_in_white_and.webp 1024w",
+                "thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+                "name": "minimalist_running_sneakers_in_white_and",
+                "alt": ""
+            }
+        ],
+        "categories": [
+            {
+                "id": 20,
+                "name": "Footwear",
+                "slug": "footwear",
+                "link": "https://api.meidanm.net/product-category/footwear/"
+            }
+        ],
+        "tags": [],
+        "brands": [],
+        "attributes": [],
+        "variations": [],
+        "grouped_products": [],
+        "has_options": false,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "stock_availability": {
+            "text": "",
+            "class": "in-stock"
+        },
+        "sold_individually": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "formatted_weight": "N/A",
+        "formatted_dimensions": "N/A",
+        "add_to_cart": {
+            "text": "Add to cart",
+            "description": "Add to cart: &ldquo;Minimalist Running Sneakers&rdquo;",
+            "url": "/wp-json/wc/store/products?page=1&#038;per_page=6&#038;include_sort_meta=true&#038;add-to-cart=150",
+            "single_text": "Add to cart",
+            "minimum": 1,
+            "maximum": 9999,
+            "multiple_of": 1
+        },
+        "is_password_protected": false,
+        "extensions": {
+            "qwoo": {
+                "default_category": {
+                    "id": 20,
+                    "name": "Footwear",
+                    "slug": "footwear"
+                }
+            },
+            "offline_order": {
+                "menu_order": 0,
+                "total_sales": 0,
+                "average_rating": 0
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products/150",
+                    "targetHints": {
+                        "allow": [
+                            "GET"
+                        ]
+                    }
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products"
+                }
+            ],
+            "related": [
+                {
+                    "embeddable": true,
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products?related=150&per_page=10"
+                }
+            ]
+        }
+    },
+    {
+        "id": 149,
+        "name": "Premium Cotton Hoodie",
+        "slug": "premium-cotton-hoodie",
+        "parent": 0,
+        "type": "simple",
+        "variation": "",
+        "permalink": "https://api.meidanm.net/product/premium-cotton-hoodie/",
+        "sku": "",
+        "short_description": "",
+        "description": "<p data-start=\"408\" data-end=\"581\">Heavyweight cotton hoodie with a comfortable fit and soft interior. A modern wardrobe staple built for everyday wear.</p>",
+        "on_sale": true,
+        "prices": {
+            "price": "18700",
+            "regular_price": "20000",
+            "sale_price": "18700",
+            "price_range": null,
+            "currency_code": "ILS",
+            "currency_symbol": "\u20aa",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "\u20aa",
+            "currency_suffix": ""
+        },
+        "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>200.00</span></del> <span class=\"screen-reader-text\">Original price was: &#8362;200.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>187.00</span></ins><span class=\"screen-reader-text\">Current price is: &#8362;187.00.</span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [
+            {
+                "id": 83,
+                "src": "https://api.meidanm.net/wp-content/uploads/2026/07/premium_cotton_hoodie_in_deep_navy_blue.webp",
+                "thumbnail": "https://api.meidanm.net/wp-content/uploads/2026/07/premium_cotton_hoodie_in_deep_navy_blue-300x300.webp",
+                "srcset": "https://api.meidanm.net/wp-content/uploads/2026/07/premium_cotton_hoodie_in_deep_navy_blue.webp 1024w, https://api.meidanm.net/wp-content/uploads/2026/07/premium_cotton_hoodie_in_deep_navy_blue-300x300.webp 300w, https://api.meidanm.net/wp-content/uploads/2026/07/premium_cotton_hoodie_in_deep_navy_blue-150x150.webp 150w, https://api.meidanm.net/wp-content/uploads/2026/07/premium_cotton_hoodie_in_deep_navy_blue-768x768.webp 768w, https://api.meidanm.net/wp-content/uploads/2026/07/premium_cotton_hoodie_in_deep_navy_blue-600x600.webp 600w, https://api.meidanm.net/wp-content/uploads/2026/07/premium_cotton_hoodie_in_deep_navy_blue-100x100.webp 100w",
+                "sizes": "(max-width: 1024px) 100vw, 1024px",
+                "thumbnail_srcset": "https://api.meidanm.net/wp-content/uploads/2026/07/premium_cotton_hoodie_in_deep_navy_blue-300x300.webp 300w, https://api.meidanm.net/wp-content/uploads/2026/07/premium_cotton_hoodie_in_deep_navy_blue-150x150.webp 150w, https://api.meidanm.net/wp-content/uploads/2026/07/premium_cotton_hoodie_in_deep_navy_blue-768x768.webp 768w, https://api.meidanm.net/wp-content/uploads/2026/07/premium_cotton_hoodie_in_deep_navy_blue-600x600.webp 600w, https://api.meidanm.net/wp-content/uploads/2026/07/premium_cotton_hoodie_in_deep_navy_blue-100x100.webp 100w, https://api.meidanm.net/wp-content/uploads/2026/07/premium_cotton_hoodie_in_deep_navy_blue.webp 1024w",
+                "thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+                "name": "premium_cotton_hoodie_in_deep_navy_blue",
+                "alt": ""
+            }
+        ],
+        "categories": [
+            {
+                "id": 19,
+                "name": "Accessories",
+                "slug": "accessories",
+                "link": "https://api.meidanm.net/product-category/accessories/"
+            }
+        ],
+        "tags": [],
+        "brands": [],
+        "attributes": [],
+        "variations": [],
+        "grouped_products": [],
+        "has_options": false,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "stock_availability": {
+            "text": "",
+            "class": "in-stock"
+        },
+        "sold_individually": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "formatted_weight": "N/A",
+        "formatted_dimensions": "N/A",
+        "add_to_cart": {
+            "text": "Add to cart",
+            "description": "Add to cart: &ldquo;Premium Cotton Hoodie&rdquo;",
+            "url": "/wp-json/wc/store/products?page=1&#038;per_page=6&#038;include_sort_meta=true&#038;add-to-cart=149",
+            "single_text": "Add to cart",
+            "minimum": 1,
+            "maximum": 9999,
+            "multiple_of": 1
+        },
+        "is_password_protected": false,
+        "extensions": {
+            "qwoo": {
+                "default_category": {
+                    "id": 19,
+                    "name": "Accessories",
+                    "slug": "accessories"
+                }
+            },
+            "offline_order": {
+                "menu_order": 0,
+                "total_sales": 0,
+                "average_rating": 0
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products/149",
+                    "targetHints": {
+                        "allow": [
+                            "GET"
+                        ]
+                    }
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products"
+                }
+            ],
+            "related": [
+                {
+                    "embeddable": true,
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products?related=149&per_page=10"
+                }
+            ]
+        }
+    },
+    {
+        "id": 148,
+        "name": "Ribbed Knit Beanie",
+        "slug": "ribbed-knit-beanie",
+        "parent": 0,
+        "type": "simple",
+        "variation": "",
+        "permalink": "https://api.meidanm.net/product/ribbed-knit-beanie/",
+        "sku": "",
+        "short_description": "",
+        "description": "<p data-start=\"408\" data-end=\"581\">Soft ribbed knit beanie made for comfort and warmth. A simple accessory that completes any winter outfit.</p>",
+        "on_sale": true,
+        "prices": {
+            "price": "18700",
+            "regular_price": "20000",
+            "sale_price": "18700",
+            "price_range": null,
+            "currency_code": "ILS",
+            "currency_symbol": "\u20aa",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "\u20aa",
+            "currency_suffix": ""
+        },
+        "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>200.00</span></del> <span class=\"screen-reader-text\">Original price was: &#8362;200.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>187.00</span></ins><span class=\"screen-reader-text\">Current price is: &#8362;187.00.</span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [
+            {
+                "id": 86,
+                "src": "https://api.meidanm.net/wp-content/uploads/2026/07/ribbed_knit_beanie_in_a_soft_heather_gray.webp",
+                "thumbnail": "https://api.meidanm.net/wp-content/uploads/2026/07/ribbed_knit_beanie_in_a_soft_heather_gray-300x300.webp",
+                "srcset": "https://api.meidanm.net/wp-content/uploads/2026/07/ribbed_knit_beanie_in_a_soft_heather_gray.webp 1024w, https://api.meidanm.net/wp-content/uploads/2026/07/ribbed_knit_beanie_in_a_soft_heather_gray-300x300.webp 300w, https://api.meidanm.net/wp-content/uploads/2026/07/ribbed_knit_beanie_in_a_soft_heather_gray-150x150.webp 150w, https://api.meidanm.net/wp-content/uploads/2026/07/ribbed_knit_beanie_in_a_soft_heather_gray-768x768.webp 768w, https://api.meidanm.net/wp-content/uploads/2026/07/ribbed_knit_beanie_in_a_soft_heather_gray-600x600.webp 600w, https://api.meidanm.net/wp-content/uploads/2026/07/ribbed_knit_beanie_in_a_soft_heather_gray-100x100.webp 100w",
+                "sizes": "(max-width: 1024px) 100vw, 1024px",
+                "thumbnail_srcset": "https://api.meidanm.net/wp-content/uploads/2026/07/ribbed_knit_beanie_in_a_soft_heather_gray-300x300.webp 300w, https://api.meidanm.net/wp-content/uploads/2026/07/ribbed_knit_beanie_in_a_soft_heather_gray-150x150.webp 150w, https://api.meidanm.net/wp-content/uploads/2026/07/ribbed_knit_beanie_in_a_soft_heather_gray-768x768.webp 768w, https://api.meidanm.net/wp-content/uploads/2026/07/ribbed_knit_beanie_in_a_soft_heather_gray-600x600.webp 600w, https://api.meidanm.net/wp-content/uploads/2026/07/ribbed_knit_beanie_in_a_soft_heather_gray-100x100.webp 100w, https://api.meidanm.net/wp-content/uploads/2026/07/ribbed_knit_beanie_in_a_soft_heather_gray.webp 1024w",
+                "thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+                "name": "ribbed_knit_beanie_in_a_soft_heather_gray",
+                "alt": ""
+            }
+        ],
+        "categories": [
+            {
+                "id": 19,
+                "name": "Accessories",
+                "slug": "accessories",
+                "link": "https://api.meidanm.net/product-category/accessories/"
+            }
+        ],
+        "tags": [],
+        "brands": [],
+        "attributes": [],
+        "variations": [],
+        "grouped_products": [],
+        "has_options": false,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "stock_availability": {
+            "text": "",
+            "class": "in-stock"
+        },
+        "sold_individually": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "formatted_weight": "N/A",
+        "formatted_dimensions": "N/A",
+        "add_to_cart": {
+            "text": "Add to cart",
+            "description": "Add to cart: &ldquo;Ribbed Knit Beanie&rdquo;",
+            "url": "/wp-json/wc/store/products?page=1&#038;per_page=6&#038;include_sort_meta=true&#038;add-to-cart=148",
+            "single_text": "Add to cart",
+            "minimum": 1,
+            "maximum": 9999,
+            "multiple_of": 1
+        },
+        "is_password_protected": false,
+        "extensions": {
+            "qwoo": {
+                "default_category": {
+                    "id": 19,
+                    "name": "Accessories",
+                    "slug": "accessories"
+                }
+            },
+            "offline_order": {
+                "menu_order": 0,
+                "total_sales": 0,
+                "average_rating": 0
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products/148",
+                    "targetHints": {
+                        "allow": [
+                            "GET"
+                        ]
+                    }
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products"
+                }
+            ],
+            "related": [
+                {
+                    "embeddable": true,
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products?related=148&per_page=10"
+                }
+            ]
+        }
+    },
+    {
+        "id": 147,
+        "name": "Wool Blend Oversized Coat",
+        "slug": "wool-blend-oversized-coat",
+        "parent": 0,
+        "type": "simple",
+        "variation": "",
+        "permalink": "https://api.meidanm.net/product/wool-blend-oversized-coat/",
+        "sku": "",
+        "short_description": "",
+        "description": "<p data-start=\"408\" data-end=\"581\">A sophisticated wool blend coat featuring a modern oversized fit, warm construction, and a timeless design for colder days.</p>",
+        "on_sale": true,
+        "prices": {
+            "price": "18700",
+            "regular_price": "20000",
+            "sale_price": "18700",
+            "price_range": null,
+            "currency_code": "ILS",
+            "currency_symbol": "\u20aa",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "\u20aa",
+            "currency_suffix": ""
+        },
+        "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>200.00</span></del> <span class=\"screen-reader-text\">Original price was: &#8362;200.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>187.00</span></ins><span class=\"screen-reader-text\">Current price is: &#8362;187.00.</span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [
+            {
+                "id": 88,
+                "src": "https://api.meidanm.net/wp-content/uploads/2026/07/wool_blend_oversized_coat_in_a_classic.webp",
+                "thumbnail": "https://api.meidanm.net/wp-content/uploads/2026/07/wool_blend_oversized_coat_in_a_classic-300x300.webp",
+                "srcset": "https://api.meidanm.net/wp-content/uploads/2026/07/wool_blend_oversized_coat_in_a_classic.webp 1024w, https://api.meidanm.net/wp-content/uploads/2026/07/wool_blend_oversized_coat_in_a_classic-300x300.webp 300w, https://api.meidanm.net/wp-content/uploads/2026/07/wool_blend_oversized_coat_in_a_classic-150x150.webp 150w, https://api.meidanm.net/wp-content/uploads/2026/07/wool_blend_oversized_coat_in_a_classic-768x768.webp 768w, https://api.meidanm.net/wp-content/uploads/2026/07/wool_blend_oversized_coat_in_a_classic-600x600.webp 600w, https://api.meidanm.net/wp-content/uploads/2026/07/wool_blend_oversized_coat_in_a_classic-100x100.webp 100w",
+                "sizes": "(max-width: 1024px) 100vw, 1024px",
+                "thumbnail_srcset": "https://api.meidanm.net/wp-content/uploads/2026/07/wool_blend_oversized_coat_in_a_classic-300x300.webp 300w, https://api.meidanm.net/wp-content/uploads/2026/07/wool_blend_oversized_coat_in_a_classic-150x150.webp 150w, https://api.meidanm.net/wp-content/uploads/2026/07/wool_blend_oversized_coat_in_a_classic-768x768.webp 768w, https://api.meidanm.net/wp-content/uploads/2026/07/wool_blend_oversized_coat_in_a_classic-600x600.webp 600w, https://api.meidanm.net/wp-content/uploads/2026/07/wool_blend_oversized_coat_in_a_classic-100x100.webp 100w, https://api.meidanm.net/wp-content/uploads/2026/07/wool_blend_oversized_coat_in_a_classic.webp 1024w",
+                "thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+                "name": "wool_blend_oversized_coat_in_a_classic",
+                "alt": ""
+            }
+        ],
+        "categories": [
+            {
+                "id": 18,
+                "name": "Outerwear",
+                "slug": "outerwear",
+                "link": "https://api.meidanm.net/product-category/outerwear/"
+            }
+        ],
+        "tags": [],
+        "brands": [],
+        "attributes": [],
+        "variations": [],
+        "grouped_products": [],
+        "has_options": false,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "stock_availability": {
+            "text": "",
+            "class": "in-stock"
+        },
+        "sold_individually": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "formatted_weight": "N/A",
+        "formatted_dimensions": "N/A",
+        "add_to_cart": {
+            "text": "Add to cart",
+            "description": "Add to cart: &ldquo;Wool Blend Oversized Coat&rdquo;",
+            "url": "/wp-json/wc/store/products?page=2&#038;per_page=6&#038;include_sort_meta=true&#038;add-to-cart=147",
+            "single_text": "Add to cart",
+            "minimum": 1,
+            "maximum": 9999,
+            "multiple_of": 1
+        },
+        "is_password_protected": false,
+        "extensions": {
+            "qwoo": {
+                "default_category": {
+                    "id": 18,
+                    "name": "Outerwear",
+                    "slug": "outerwear"
+                }
+            },
+            "offline_order": {
+                "menu_order": 0,
+                "total_sales": 0,
+                "average_rating": 0
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products/147",
+                    "targetHints": {
+                        "allow": [
+                            "GET"
+                        ]
+                    }
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products"
+                }
+            ],
+            "related": [
+                {
+                    "embeddable": true,
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products?related=147&per_page=10"
+                }
+            ]
+        }
+    },
+    {
+        "id": 146,
+        "name": "Everyday Canvas Backpack",
+        "slug": "everyday-canvas-backpack",
+        "parent": 0,
+        "type": "simple",
+        "variation": "",
+        "permalink": "https://api.meidanm.net/product/everyday-canvas-backpack/",
+        "sku": "",
+        "short_description": "",
+        "description": "<p data-start=\"408\" data-end=\"581\">Durable canvas backpack with multiple compartments and a comfortable design for commuting, travel, and daily use.</p>",
+        "on_sale": true,
+        "prices": {
+            "price": "18700",
+            "regular_price": "20000",
+            "sale_price": "18700",
+            "price_range": null,
+            "currency_code": "ILS",
+            "currency_symbol": "\u20aa",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "\u20aa",
+            "currency_suffix": ""
+        },
+        "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>200.00</span></del> <span class=\"screen-reader-text\">Original price was: &#8362;200.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>187.00</span></ins><span class=\"screen-reader-text\">Current price is: &#8362;187.00.</span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [
+            {
+                "id": 90,
+                "src": "https://api.meidanm.net/wp-content/uploads/2026/07/everyday_canvas_backpack_in_charcoal.webp",
+                "thumbnail": "https://api.meidanm.net/wp-content/uploads/2026/07/everyday_canvas_backpack_in_charcoal-300x300.webp",
+                "srcset": "https://api.meidanm.net/wp-content/uploads/2026/07/everyday_canvas_backpack_in_charcoal.webp 1024w, https://api.meidanm.net/wp-content/uploads/2026/07/everyday_canvas_backpack_in_charcoal-300x300.webp 300w, https://api.meidanm.net/wp-content/uploads/2026/07/everyday_canvas_backpack_in_charcoal-150x150.webp 150w, https://api.meidanm.net/wp-content/uploads/2026/07/everyday_canvas_backpack_in_charcoal-768x768.webp 768w, https://api.meidanm.net/wp-content/uploads/2026/07/everyday_canvas_backpack_in_charcoal-600x600.webp 600w, https://api.meidanm.net/wp-content/uploads/2026/07/everyday_canvas_backpack_in_charcoal-100x100.webp 100w",
+                "sizes": "(max-width: 1024px) 100vw, 1024px",
+                "thumbnail_srcset": "https://api.meidanm.net/wp-content/uploads/2026/07/everyday_canvas_backpack_in_charcoal-300x300.webp 300w, https://api.meidanm.net/wp-content/uploads/2026/07/everyday_canvas_backpack_in_charcoal-150x150.webp 150w, https://api.meidanm.net/wp-content/uploads/2026/07/everyday_canvas_backpack_in_charcoal-768x768.webp 768w, https://api.meidanm.net/wp-content/uploads/2026/07/everyday_canvas_backpack_in_charcoal-600x600.webp 600w, https://api.meidanm.net/wp-content/uploads/2026/07/everyday_canvas_backpack_in_charcoal-100x100.webp 100w, https://api.meidanm.net/wp-content/uploads/2026/07/everyday_canvas_backpack_in_charcoal.webp 1024w",
+                "thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+                "name": "everyday_canvas_backpack_in_charcoal",
+                "alt": ""
+            }
+        ],
+        "categories": [
+            {
+                "id": 19,
+                "name": "Accessories",
+                "slug": "accessories",
+                "link": "https://api.meidanm.net/product-category/accessories/"
+            }
+        ],
+        "tags": [],
+        "brands": [],
+        "attributes": [],
+        "variations": [],
+        "grouped_products": [],
+        "has_options": false,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "stock_availability": {
+            "text": "",
+            "class": "in-stock"
+        },
+        "sold_individually": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "formatted_weight": "N/A",
+        "formatted_dimensions": "N/A",
+        "add_to_cart": {
+            "text": "Add to cart",
+            "description": "Add to cart: &ldquo;Everyday Canvas Backpack&rdquo;",
+            "url": "/wp-json/wc/store/products?page=2&#038;per_page=6&#038;include_sort_meta=true&#038;add-to-cart=146",
+            "single_text": "Add to cart",
+            "minimum": 1,
+            "maximum": 9999,
+            "multiple_of": 1
+        },
+        "is_password_protected": false,
+        "extensions": {
+            "qwoo": {
+                "default_category": {
+                    "id": 19,
+                    "name": "Accessories",
+                    "slug": "accessories"
+                }
+            },
+            "offline_order": {
+                "menu_order": 0,
+                "total_sales": 0,
+                "average_rating": 0
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products/146",
+                    "targetHints": {
+                        "allow": [
+                            "GET"
+                        ]
+                    }
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products"
+                }
+            ],
+            "related": [
+                {
+                    "embeddable": true,
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products?related=146&per_page=10"
+                }
+            ]
+        }
+    },
+    {
+        "id": 145,
+        "name": "Premium Leather Wallet",
+        "slug": "premium-leather-wallet",
+        "parent": 0,
+        "type": "simple",
+        "variation": "",
+        "permalink": "https://api.meidanm.net/product/premium-leather-wallet/",
+        "sku": "",
+        "short_description": "",
+        "description": "<p data-start=\"408\" data-end=\"581\">Minimal leather wallet with a slim profile and refined finish. Designed to carry your essentials while maintaining a clean look.</p>",
+        "on_sale": true,
+        "prices": {
+            "price": "18700",
+            "regular_price": "20000",
+            "sale_price": "18700",
+            "price_range": null,
+            "currency_code": "ILS",
+            "currency_symbol": "\u20aa",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "\u20aa",
+            "currency_suffix": ""
+        },
+        "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>200.00</span></del> <span class=\"screen-reader-text\">Original price was: &#8362;200.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>187.00</span></ins><span class=\"screen-reader-text\">Current price is: &#8362;187.00.</span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [
+            {
+                "id": 84,
+                "src": "https://api.meidanm.net/wp-content/uploads/2026/07/premium_leather_wallet_in_a_rich_tan.webp",
+                "thumbnail": "https://api.meidanm.net/wp-content/uploads/2026/07/premium_leather_wallet_in_a_rich_tan-300x300.webp",
+                "srcset": "https://api.meidanm.net/wp-content/uploads/2026/07/premium_leather_wallet_in_a_rich_tan.webp 1024w, https://api.meidanm.net/wp-content/uploads/2026/07/premium_leather_wallet_in_a_rich_tan-300x300.webp 300w, https://api.meidanm.net/wp-content/uploads/2026/07/premium_leather_wallet_in_a_rich_tan-150x150.webp 150w, https://api.meidanm.net/wp-content/uploads/2026/07/premium_leather_wallet_in_a_rich_tan-768x768.webp 768w, https://api.meidanm.net/wp-content/uploads/2026/07/premium_leather_wallet_in_a_rich_tan-600x600.webp 600w, https://api.meidanm.net/wp-content/uploads/2026/07/premium_leather_wallet_in_a_rich_tan-100x100.webp 100w",
+                "sizes": "(max-width: 1024px) 100vw, 1024px",
+                "thumbnail_srcset": "https://api.meidanm.net/wp-content/uploads/2026/07/premium_leather_wallet_in_a_rich_tan-300x300.webp 300w, https://api.meidanm.net/wp-content/uploads/2026/07/premium_leather_wallet_in_a_rich_tan-150x150.webp 150w, https://api.meidanm.net/wp-content/uploads/2026/07/premium_leather_wallet_in_a_rich_tan-768x768.webp 768w, https://api.meidanm.net/wp-content/uploads/2026/07/premium_leather_wallet_in_a_rich_tan-600x600.webp 600w, https://api.meidanm.net/wp-content/uploads/2026/07/premium_leather_wallet_in_a_rich_tan-100x100.webp 100w, https://api.meidanm.net/wp-content/uploads/2026/07/premium_leather_wallet_in_a_rich_tan.webp 1024w",
+                "thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+                "name": "premium_leather_wallet_in_a_rich_tan",
+                "alt": ""
+            }
+        ],
+        "categories": [
+            {
+                "id": 19,
+                "name": "Accessories",
+                "slug": "accessories",
+                "link": "https://api.meidanm.net/product-category/accessories/"
+            }
+        ],
+        "tags": [],
+        "brands": [],
+        "attributes": [],
+        "variations": [],
+        "grouped_products": [],
+        "has_options": false,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "stock_availability": {
+            "text": "",
+            "class": "in-stock"
+        },
+        "sold_individually": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "formatted_weight": "N/A",
+        "formatted_dimensions": "N/A",
+        "add_to_cart": {
+            "text": "Add to cart",
+            "description": "Add to cart: &ldquo;Premium Leather Wallet&rdquo;",
+            "url": "/wp-json/wc/store/products?page=2&#038;per_page=6&#038;include_sort_meta=true&#038;add-to-cart=145",
+            "single_text": "Add to cart",
+            "minimum": 1,
+            "maximum": 9999,
+            "multiple_of": 1
+        },
+        "is_password_protected": false,
+        "extensions": {
+            "qwoo": {
+                "default_category": {
+                    "id": 19,
+                    "name": "Accessories",
+                    "slug": "accessories"
+                }
+            },
+            "offline_order": {
+                "menu_order": 0,
+                "total_sales": 0,
+                "average_rating": 0
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products/145",
+                    "targetHints": {
+                        "allow": [
+                            "GET"
+                        ]
+                    }
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products"
+                }
+            ],
+            "related": [
+                {
+                    "embeddable": true,
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products?related=145&per_page=10"
+                }
+            ]
+        }
+    },
+    {
+        "id": 144,
+        "name": "Classic Denim Jacket",
+        "slug": "classic-denim-jacket",
+        "parent": 0,
+        "type": "simple",
+        "variation": "",
+        "permalink": "https://api.meidanm.net/product/classic-denim-jacket/",
+        "sku": "",
+        "short_description": "",
+        "description": "<p data-start=\"408\" data-end=\"581\">A versatile denim jacket with a durable construction and modern cut. Perfect for layering throughout the seasons.</p>",
+        "on_sale": true,
+        "prices": {
+            "price": "18700",
+            "regular_price": "20000",
+            "sale_price": "18700",
+            "price_range": null,
+            "currency_code": "ILS",
+            "currency_symbol": "\u20aa",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "\u20aa",
+            "currency_suffix": ""
+        },
+        "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>200.00</span></del> <span class=\"screen-reader-text\">Original price was: &#8362;200.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>187.00</span></ins><span class=\"screen-reader-text\">Current price is: &#8362;187.00.</span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [
+            {
+                "id": 89,
+                "src": "https://api.meidanm.net/wp-content/uploads/2026/07/classic_denim_jacket_in_a_mid_blue_wash.webp",
+                "thumbnail": "https://api.meidanm.net/wp-content/uploads/2026/07/classic_denim_jacket_in_a_mid_blue_wash-300x300.webp",
+                "srcset": "https://api.meidanm.net/wp-content/uploads/2026/07/classic_denim_jacket_in_a_mid_blue_wash.webp 1024w, https://api.meidanm.net/wp-content/uploads/2026/07/classic_denim_jacket_in_a_mid_blue_wash-300x300.webp 300w, https://api.meidanm.net/wp-content/uploads/2026/07/classic_denim_jacket_in_a_mid_blue_wash-150x150.webp 150w, https://api.meidanm.net/wp-content/uploads/2026/07/classic_denim_jacket_in_a_mid_blue_wash-768x768.webp 768w, https://api.meidanm.net/wp-content/uploads/2026/07/classic_denim_jacket_in_a_mid_blue_wash-600x600.webp 600w, https://api.meidanm.net/wp-content/uploads/2026/07/classic_denim_jacket_in_a_mid_blue_wash-100x100.webp 100w",
+                "sizes": "(max-width: 1024px) 100vw, 1024px",
+                "thumbnail_srcset": "https://api.meidanm.net/wp-content/uploads/2026/07/classic_denim_jacket_in_a_mid_blue_wash-300x300.webp 300w, https://api.meidanm.net/wp-content/uploads/2026/07/classic_denim_jacket_in_a_mid_blue_wash-150x150.webp 150w, https://api.meidanm.net/wp-content/uploads/2026/07/classic_denim_jacket_in_a_mid_blue_wash-768x768.webp 768w, https://api.meidanm.net/wp-content/uploads/2026/07/classic_denim_jacket_in_a_mid_blue_wash-600x600.webp 600w, https://api.meidanm.net/wp-content/uploads/2026/07/classic_denim_jacket_in_a_mid_blue_wash-100x100.webp 100w, https://api.meidanm.net/wp-content/uploads/2026/07/classic_denim_jacket_in_a_mid_blue_wash.webp 1024w",
+                "thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+                "name": "classic_denim_jacket_in_a_mid_blue_wash",
+                "alt": ""
+            }
+        ],
+        "categories": [
+            {
+                "id": 18,
+                "name": "Outerwear",
+                "slug": "outerwear",
+                "link": "https://api.meidanm.net/product-category/outerwear/"
+            }
+        ],
+        "tags": [],
+        "brands": [],
+        "attributes": [],
+        "variations": [],
+        "grouped_products": [],
+        "has_options": false,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "stock_availability": {
+            "text": "",
+            "class": "in-stock"
+        },
+        "sold_individually": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "formatted_weight": "N/A",
+        "formatted_dimensions": "N/A",
+        "add_to_cart": {
+            "text": "Add to cart",
+            "description": "Add to cart: &ldquo;Classic Denim Jacket&rdquo;",
+            "url": "/wp-json/wc/store/products?page=2&#038;per_page=6&#038;include_sort_meta=true&#038;add-to-cart=144",
+            "single_text": "Add to cart",
+            "minimum": 1,
+            "maximum": 9999,
+            "multiple_of": 1
+        },
+        "is_password_protected": false,
+        "extensions": {
+            "qwoo": {
+                "default_category": {
+                    "id": 18,
+                    "name": "Outerwear",
+                    "slug": "outerwear"
+                }
+            },
+            "offline_order": {
+                "menu_order": 0,
+                "total_sales": 0,
+                "average_rating": 0
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products/144",
+                    "targetHints": {
+                        "allow": [
+                            "GET"
+                        ]
+                    }
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products"
+                }
+            ],
+            "related": [
+                {
+                    "embeddable": true,
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products?related=144&per_page=10"
+                }
+            ]
+        }
+    },
+    {
+        "id": 143,
+        "name": "Linen Blend Summer Shirt",
+        "slug": "linen-blend-summer-shirt",
+        "parent": 0,
+        "type": "simple",
+        "variation": "",
+        "permalink": "https://api.meidanm.net/product/linen-blend-summer-shirt/",
+        "sku": "",
+        "short_description": "",
+        "description": "<p data-start=\"408\" data-end=\"581\">Lightweight linen-blend shirt crafted for warm days. Features a comfortable fit, natural texture, and effortless style for casual or smart-casual looks.</p>",
+        "on_sale": true,
+        "prices": {
+            "price": "18700",
+            "regular_price": "20000",
+            "sale_price": "18700",
+            "price_range": null,
+            "currency_code": "ILS",
+            "currency_symbol": "\u20aa",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "\u20aa",
+            "currency_suffix": ""
+        },
+        "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>200.00</span></del> <span class=\"screen-reader-text\">Original price was: &#8362;200.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>187.00</span></ins><span class=\"screen-reader-text\">Current price is: &#8362;187.00.</span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [
+            {
+                "id": 92,
+                "src": "https://api.meidanm.net/wp-content/uploads/2026/07/linen_blend_summer_shirt_in_a_light_sand.webp",
+                "thumbnail": "https://api.meidanm.net/wp-content/uploads/2026/07/linen_blend_summer_shirt_in_a_light_sand-300x300.webp",
+                "srcset": "https://api.meidanm.net/wp-content/uploads/2026/07/linen_blend_summer_shirt_in_a_light_sand.webp 1024w, https://api.meidanm.net/wp-content/uploads/2026/07/linen_blend_summer_shirt_in_a_light_sand-300x300.webp 300w, https://api.meidanm.net/wp-content/uploads/2026/07/linen_blend_summer_shirt_in_a_light_sand-150x150.webp 150w, https://api.meidanm.net/wp-content/uploads/2026/07/linen_blend_summer_shirt_in_a_light_sand-768x768.webp 768w, https://api.meidanm.net/wp-content/uploads/2026/07/linen_blend_summer_shirt_in_a_light_sand-600x600.webp 600w, https://api.meidanm.net/wp-content/uploads/2026/07/linen_blend_summer_shirt_in_a_light_sand-100x100.webp 100w",
+                "sizes": "(max-width: 1024px) 100vw, 1024px",
+                "thumbnail_srcset": "https://api.meidanm.net/wp-content/uploads/2026/07/linen_blend_summer_shirt_in_a_light_sand-300x300.webp 300w, https://api.meidanm.net/wp-content/uploads/2026/07/linen_blend_summer_shirt_in_a_light_sand-150x150.webp 150w, https://api.meidanm.net/wp-content/uploads/2026/07/linen_blend_summer_shirt_in_a_light_sand-768x768.webp 768w, https://api.meidanm.net/wp-content/uploads/2026/07/linen_blend_summer_shirt_in_a_light_sand-600x600.webp 600w, https://api.meidanm.net/wp-content/uploads/2026/07/linen_blend_summer_shirt_in_a_light_sand-100x100.webp 100w, https://api.meidanm.net/wp-content/uploads/2026/07/linen_blend_summer_shirt_in_a_light_sand.webp 1024w",
+                "thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+                "name": "linen_blend_summer_shirt_in_a_light_sand",
+                "alt": ""
+            }
+        ],
+        "categories": [
+            {
+                "id": 17,
+                "name": "Clothing",
+                "slug": "clothing",
+                "link": "https://api.meidanm.net/product-category/clothing/"
+            }
+        ],
+        "tags": [],
+        "brands": [],
+        "attributes": [],
+        "variations": [],
+        "grouped_products": [],
+        "has_options": false,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "stock_availability": {
+            "text": "",
+            "class": "in-stock"
+        },
+        "sold_individually": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "formatted_weight": "N/A",
+        "formatted_dimensions": "N/A",
+        "add_to_cart": {
+            "text": "Add to cart",
+            "description": "Add to cart: &ldquo;Linen Blend Summer Shirt&rdquo;",
+            "url": "/wp-json/wc/store/products?page=2&#038;per_page=6&#038;include_sort_meta=true&#038;add-to-cart=143",
+            "single_text": "Add to cart",
+            "minimum": 1,
+            "maximum": 9999,
+            "multiple_of": 1
+        },
+        "is_password_protected": false,
+        "extensions": {
+            "qwoo": {
+                "default_category": {
+                    "id": 17,
+                    "name": "Clothing",
+                    "slug": "clothing"
+                }
+            },
+            "offline_order": {
+                "menu_order": 0,
+                "total_sales": 0,
+                "average_rating": 0
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products/143",
+                    "targetHints": {
+                        "allow": [
+                            "GET"
+                        ]
+                    }
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products"
+                }
+            ],
+            "related": [
+                {
+                    "embeddable": true,
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products?related=143&per_page=10"
+                }
+            ]
+        }
+    },
+    {
+        "id": 142,
+        "name": "Organic Cotton Relaxed Fit T-Shirt",
+        "slug": "organic-cotton-relaxed-fit-t-shirt",
+        "parent": 0,
+        "type": "simple",
+        "variation": "",
+        "permalink": "https://api.meidanm.net/product/organic-cotton-relaxed-fit-t-shirt/",
+        "sku": "",
+        "short_description": "",
+        "description": "<p data-start=\"408\" data-end=\"581\">A premium everyday essential made from soft organic cotton. Designed with a relaxed silhouette, breathable fabric, and a timeless style that works for any casual outfit.</p>",
+        "on_sale": true,
+        "prices": {
+            "price": "18700",
+            "regular_price": "20000",
+            "sale_price": "18700",
+            "price_range": null,
+            "currency_code": "ILS",
+            "currency_symbol": "\u20aa",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "\u20aa",
+            "currency_suffix": ""
+        },
+        "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>200.00</span></del> <span class=\"screen-reader-text\">Original price was: &#8362;200.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>187.00</span></ins><span class=\"screen-reader-text\">Current price is: &#8362;187.00.</span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [
+            {
+                "id": 93,
+                "src": "https://api.meidanm.net/wp-content/uploads/2026/07/organic_cotton_relaxed_fit_t_shirt_in_a.webp",
+                "thumbnail": "https://api.meidanm.net/wp-content/uploads/2026/07/organic_cotton_relaxed_fit_t_shirt_in_a-300x300.webp",
+                "srcset": "https://api.meidanm.net/wp-content/uploads/2026/07/organic_cotton_relaxed_fit_t_shirt_in_a.webp 1024w, https://api.meidanm.net/wp-content/uploads/2026/07/organic_cotton_relaxed_fit_t_shirt_in_a-300x300.webp 300w, https://api.meidanm.net/wp-content/uploads/2026/07/organic_cotton_relaxed_fit_t_shirt_in_a-150x150.webp 150w, https://api.meidanm.net/wp-content/uploads/2026/07/organic_cotton_relaxed_fit_t_shirt_in_a-768x768.webp 768w, https://api.meidanm.net/wp-content/uploads/2026/07/organic_cotton_relaxed_fit_t_shirt_in_a-600x600.webp 600w, https://api.meidanm.net/wp-content/uploads/2026/07/organic_cotton_relaxed_fit_t_shirt_in_a-100x100.webp 100w",
+                "sizes": "(max-width: 1024px) 100vw, 1024px",
+                "thumbnail_srcset": "https://api.meidanm.net/wp-content/uploads/2026/07/organic_cotton_relaxed_fit_t_shirt_in_a-300x300.webp 300w, https://api.meidanm.net/wp-content/uploads/2026/07/organic_cotton_relaxed_fit_t_shirt_in_a-150x150.webp 150w, https://api.meidanm.net/wp-content/uploads/2026/07/organic_cotton_relaxed_fit_t_shirt_in_a-768x768.webp 768w, https://api.meidanm.net/wp-content/uploads/2026/07/organic_cotton_relaxed_fit_t_shirt_in_a-600x600.webp 600w, https://api.meidanm.net/wp-content/uploads/2026/07/organic_cotton_relaxed_fit_t_shirt_in_a-100x100.webp 100w, https://api.meidanm.net/wp-content/uploads/2026/07/organic_cotton_relaxed_fit_t_shirt_in_a.webp 1024w",
+                "thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+                "name": "organic_cotton_relaxed_fit_t_shirt_in_a",
+                "alt": ""
+            }
+        ],
+        "categories": [
+            {
+                "id": 17,
+                "name": "Clothing",
+                "slug": "clothing",
+                "link": "https://api.meidanm.net/product-category/clothing/"
+            }
+        ],
+        "tags": [],
+        "brands": [],
+        "attributes": [],
+        "variations": [],
+        "grouped_products": [],
+        "has_options": false,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "stock_availability": {
+            "text": "",
+            "class": "in-stock"
+        },
+        "sold_individually": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "formatted_weight": "N/A",
+        "formatted_dimensions": "N/A",
+        "add_to_cart": {
+            "text": "Add to cart",
+            "description": "Add to cart: &ldquo;Organic Cotton Relaxed Fit T-Shirt&rdquo;",
+            "url": "/wp-json/wc/store/products?page=2&#038;per_page=6&#038;include_sort_meta=true&#038;add-to-cart=142",
+            "single_text": "Add to cart",
+            "minimum": 1,
+            "maximum": 9999,
+            "multiple_of": 1
+        },
+        "is_password_protected": false,
+        "extensions": {
+            "qwoo": {
+                "default_category": {
+                    "id": 17,
+                    "name": "Clothing",
+                    "slug": "clothing"
+                }
+            },
+            "offline_order": {
+                "menu_order": 0,
+                "total_sales": 0,
+                "average_rating": 0
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products/142",
+                    "targetHints": {
+                        "allow": [
+                            "GET"
+                        ]
+                    }
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products"
+                }
+            ],
+            "related": [
+                {
+                    "embeddable": true,
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products?related=142&per_page=10"
+                }
+            ]
+        }
+    },
+    {
+        "id": 133,
+        "name": "Heavy duty canvas tote bag",
+        "slug": "heavy-duty-canvas-tote-bag",
+        "parent": 0,
+        "type": "simple",
+        "variation": "",
+        "permalink": "https://api.meidanm.net/product/heavy-duty-canvas-tote-bag/",
+        "sku": "",
+        "short_description": "",
+        "description": "<p data-start=\"408\" data-end=\"581\">A durable everyday tote bag made from heavy-duty canvas, designed for carrying groceries, work essentials, or daily items with ease and reliability.</p>",
+        "on_sale": true,
+        "prices": {
+            "price": "18700",
+            "regular_price": "20000",
+            "sale_price": "18700",
+            "price_range": null,
+            "currency_code": "ILS",
+            "currency_symbol": "\u20aa",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "\u20aa",
+            "currency_suffix": ""
+        },
+        "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>200.00</span></del> <span class=\"screen-reader-text\">Original price was: &#8362;200.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>187.00</span></ins><span class=\"screen-reader-text\">Current price is: &#8362;187.00.</span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [
+            {
+                "id": 16,
+                "src": "https://api.meidanm.net/wp-content/uploads/2026/06/heavy_duty_canvas_tote_bag_in_charcoal.webp",
+                "thumbnail": "https://api.meidanm.net/wp-content/uploads/2026/06/heavy_duty_canvas_tote_bag_in_charcoal-300x300.webp",
+                "srcset": "https://api.meidanm.net/wp-content/uploads/2026/06/heavy_duty_canvas_tote_bag_in_charcoal.webp 864w, https://api.meidanm.net/wp-content/uploads/2026/06/heavy_duty_canvas_tote_bag_in_charcoal-600x822.webp 600w, https://api.meidanm.net/wp-content/uploads/2026/06/heavy_duty_canvas_tote_bag_in_charcoal-219x300.webp 219w, https://api.meidanm.net/wp-content/uploads/2026/06/heavy_duty_canvas_tote_bag_in_charcoal-747x1024.webp 747w, https://api.meidanm.net/wp-content/uploads/2026/06/heavy_duty_canvas_tote_bag_in_charcoal-768x1052.webp 768w",
+                "sizes": "(max-width: 864px) 100vw, 864px",
+                "thumbnail_srcset": "https://api.meidanm.net/wp-content/uploads/2026/06/heavy_duty_canvas_tote_bag_in_charcoal-300x300.webp 300w, https://api.meidanm.net/wp-content/uploads/2026/06/heavy_duty_canvas_tote_bag_in_charcoal-100x100.webp 100w, https://api.meidanm.net/wp-content/uploads/2026/06/heavy_duty_canvas_tote_bag_in_charcoal-150x150.webp 150w",
+                "thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+                "name": "heavy_duty_canvas_tote_bag_in_charcoal",
+                "alt": ""
+            }
+        ],
+        "categories": [],
+        "tags": [],
+        "brands": [],
+        "attributes": [],
+        "variations": [],
+        "grouped_products": [],
+        "has_options": false,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "stock_availability": {
+            "text": "",
+            "class": "in-stock"
+        },
+        "sold_individually": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "formatted_weight": "N/A",
+        "formatted_dimensions": "N/A",
+        "add_to_cart": {
+            "text": "Add to cart",
+            "description": "Add to cart: &ldquo;Heavy duty canvas tote bag&rdquo;",
+            "url": "/wp-json/wc/store/products?page=3&#038;per_page=6&#038;include_sort_meta=true&#038;add-to-cart=133",
+            "single_text": "Add to cart",
+            "minimum": 1,
+            "maximum": 9999,
+            "multiple_of": 1
+        },
+        "is_password_protected": false,
+        "extensions": {
+            "qwoo": {
+                "default_category": {
+                    "id": 15,
+                    "name": "Uncategorized-1",
+                    "slug": "uncategorized"
+                }
+            },
+            "offline_order": {
+                "menu_order": 0,
+                "total_sales": 0,
+                "average_rating": 0
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products/133",
+                    "targetHints": {
+                        "allow": [
+                            "GET"
+                        ]
+                    }
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products"
+                }
+            ],
+            "related": [
+                {
+                    "embeddable": true,
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products?related=133&per_page=10"
+                }
+            ]
+        }
+    },
+    {
+        "id": 132,
+        "name": "Lightweight recycled polyester",
+        "slug": "lightweight-recycled-polyester",
+        "parent": 0,
+        "type": "simple",
+        "variation": "",
+        "permalink": "https://api.meidanm.net/product/lightweight-recycled-polyester/",
+        "sku": "",
+        "short_description": "",
+        "description": "<p data-start=\"1085\" data-end=\"1256\">A lightweight, eco-conscious material piece designed for comfort and versatility, ideal for everyday wear with a focus on sustainability and ease.</p>",
+        "on_sale": false,
+        "prices": {
+            "price": "25000",
+            "regular_price": "25000",
+            "sale_price": "25000",
+            "price_range": null,
+            "currency_code": "ILS",
+            "currency_symbol": "\u20aa",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "\u20aa",
+            "currency_suffix": ""
+        },
+        "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>250.00</span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [
+            {
+                "id": 17,
+                "src": "https://api.meidanm.net/wp-content/uploads/2026/06/lightweight_recycled_polyester.webp",
+                "thumbnail": "https://api.meidanm.net/wp-content/uploads/2026/06/lightweight_recycled_polyester-300x300.webp",
+                "srcset": "https://api.meidanm.net/wp-content/uploads/2026/06/lightweight_recycled_polyester.webp 864w, https://api.meidanm.net/wp-content/uploads/2026/06/lightweight_recycled_polyester-600x822.webp 600w, https://api.meidanm.net/wp-content/uploads/2026/06/lightweight_recycled_polyester-219x300.webp 219w, https://api.meidanm.net/wp-content/uploads/2026/06/lightweight_recycled_polyester-747x1024.webp 747w, https://api.meidanm.net/wp-content/uploads/2026/06/lightweight_recycled_polyester-768x1052.webp 768w",
+                "sizes": "(max-width: 864px) 100vw, 864px",
+                "thumbnail_srcset": "https://api.meidanm.net/wp-content/uploads/2026/06/lightweight_recycled_polyester-300x300.webp 300w, https://api.meidanm.net/wp-content/uploads/2026/06/lightweight_recycled_polyester-100x100.webp 100w, https://api.meidanm.net/wp-content/uploads/2026/06/lightweight_recycled_polyester-150x150.webp 150w",
+                "thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+                "name": "lightweight_recycled_polyester",
+                "alt": ""
+            }
+        ],
+        "categories": [],
+        "tags": [],
+        "brands": [],
+        "attributes": [],
+        "variations": [],
+        "grouped_products": [],
+        "has_options": false,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "stock_availability": {
+            "text": "",
+            "class": "in-stock"
+        },
+        "sold_individually": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "formatted_weight": "N/A",
+        "formatted_dimensions": "N/A",
+        "add_to_cart": {
+            "text": "Add to cart",
+            "description": "Add to cart: &ldquo;Lightweight recycled polyester&rdquo;",
+            "url": "/wp-json/wc/store/products?page=3&#038;per_page=6&#038;include_sort_meta=true&#038;add-to-cart=132",
+            "single_text": "Add to cart",
+            "minimum": 1,
+            "maximum": 9999,
+            "multiple_of": 1
+        },
+        "is_password_protected": false,
+        "extensions": {
+            "qwoo": {
+                "default_category": {
+                    "id": 15,
+                    "name": "Uncategorized-1",
+                    "slug": "uncategorized"
+                }
+            },
+            "offline_order": {
+                "menu_order": 0,
+                "total_sales": 0,
+                "average_rating": 0
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products/132",
+                    "targetHints": {
+                        "allow": [
+                            "GET"
+                        ]
+                    }
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products"
+                }
+            ],
+            "related": [
+                {
+                    "embeddable": true,
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products?related=132&per_page=10"
+                }
+            ]
+        }
+    },
+    {
+        "id": 130,
+        "name": "Merino wool knit sweater in cream",
+        "slug": "merino-wool-knit-sweater-in-cream",
+        "parent": 0,
+        "type": "variable",
+        "variation": "",
+        "permalink": "https://api.meidanm.net/product/merino-wool-knit-sweater-in-cream/",
+        "sku": "",
+        "short_description": "",
+        "description": "<p data-start=\"1725\" data-end=\"1863\">A soft merino wool knit sweater in a clean cream tone, designed for warmth, comfort, and a refined everyday look.</p>",
+        "on_sale": true,
+        "prices": {
+            "price": "22900",
+            "regular_price": "25000",
+            "sale_price": "22900",
+            "price_range": null,
+            "currency_code": "ILS",
+            "currency_symbol": "\u20aa",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "\u20aa",
+            "currency_suffix": ""
+        },
+        "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>250.00</span></del> <span class=\"screen-reader-text\">Original price was: &#8362;250.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>229.00</span></ins><span class=\"screen-reader-text\">Current price is: &#8362;229.00.</span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [
+            {
+                "id": 15,
+                "src": "https://api.meidanm.net/wp-content/uploads/2026/06/merino_wool_knit_sweater_in_cream.webp",
+                "thumbnail": "https://api.meidanm.net/wp-content/uploads/2026/06/merino_wool_knit_sweater_in_cream-300x300.webp",
+                "srcset": "https://api.meidanm.net/wp-content/uploads/2026/06/merino_wool_knit_sweater_in_cream.webp 864w, https://api.meidanm.net/wp-content/uploads/2026/06/merino_wool_knit_sweater_in_cream-600x822.webp 600w, https://api.meidanm.net/wp-content/uploads/2026/06/merino_wool_knit_sweater_in_cream-219x300.webp 219w, https://api.meidanm.net/wp-content/uploads/2026/06/merino_wool_knit_sweater_in_cream-747x1024.webp 747w, https://api.meidanm.net/wp-content/uploads/2026/06/merino_wool_knit_sweater_in_cream-768x1052.webp 768w",
+                "sizes": "(max-width: 864px) 100vw, 864px",
+                "thumbnail_srcset": "https://api.meidanm.net/wp-content/uploads/2026/06/merino_wool_knit_sweater_in_cream-300x300.webp 300w, https://api.meidanm.net/wp-content/uploads/2026/06/merino_wool_knit_sweater_in_cream-100x100.webp 100w, https://api.meidanm.net/wp-content/uploads/2026/06/merino_wool_knit_sweater_in_cream-150x150.webp 150w",
+                "thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+                "name": "merino_wool_knit_sweater_in_cream",
+                "alt": ""
+            },
+            {
+                "id": 19,
+                "src": "https://api.meidanm.net/wp-content/uploads/2026/06/quilted_puffer_vest_in_matte_black.webp",
+                "thumbnail": "https://api.meidanm.net/wp-content/uploads/2026/06/quilted_puffer_vest_in_matte_black-300x300.webp",
+                "srcset": "https://api.meidanm.net/wp-content/uploads/2026/06/quilted_puffer_vest_in_matte_black.webp 864w, https://api.meidanm.net/wp-content/uploads/2026/06/quilted_puffer_vest_in_matte_black-600x822.webp 600w, https://api.meidanm.net/wp-content/uploads/2026/06/quilted_puffer_vest_in_matte_black-219x300.webp 219w, https://api.meidanm.net/wp-content/uploads/2026/06/quilted_puffer_vest_in_matte_black-747x1024.webp 747w, https://api.meidanm.net/wp-content/uploads/2026/06/quilted_puffer_vest_in_matte_black-768x1052.webp 768w",
+                "sizes": "(max-width: 864px) 100vw, 864px",
+                "thumbnail_srcset": "https://api.meidanm.net/wp-content/uploads/2026/06/quilted_puffer_vest_in_matte_black-300x300.webp 300w, https://api.meidanm.net/wp-content/uploads/2026/06/quilted_puffer_vest_in_matte_black-100x100.webp 100w, https://api.meidanm.net/wp-content/uploads/2026/06/quilted_puffer_vest_in_matte_black-150x150.webp 150w",
+                "thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+                "name": "quilted_puffer_vest_in_matte_black",
+                "alt": ""
+            },
+            {
+                "id": 20,
+                "src": "https://api.meidanm.net/wp-content/uploads/2026/06/brushed_fleece_joggers_in_heather_grey.webp",
+                "thumbnail": "https://api.meidanm.net/wp-content/uploads/2026/06/brushed_fleece_joggers_in_heather_grey-300x300.webp",
+                "srcset": "https://api.meidanm.net/wp-content/uploads/2026/06/brushed_fleece_joggers_in_heather_grey.webp 864w, https://api.meidanm.net/wp-content/uploads/2026/06/brushed_fleece_joggers_in_heather_grey-600x822.webp 600w, https://api.meidanm.net/wp-content/uploads/2026/06/brushed_fleece_joggers_in_heather_grey-219x300.webp 219w, https://api.meidanm.net/wp-content/uploads/2026/06/brushed_fleece_joggers_in_heather_grey-747x1024.webp 747w, https://api.meidanm.net/wp-content/uploads/2026/06/brushed_fleece_joggers_in_heather_grey-768x1052.webp 768w",
+                "sizes": "(max-width: 864px) 100vw, 864px",
+                "thumbnail_srcset": "https://api.meidanm.net/wp-content/uploads/2026/06/brushed_fleece_joggers_in_heather_grey-300x300.webp 300w, https://api.meidanm.net/wp-content/uploads/2026/06/brushed_fleece_joggers_in_heather_grey-100x100.webp 100w, https://api.meidanm.net/wp-content/uploads/2026/06/brushed_fleece_joggers_in_heather_grey-150x150.webp 150w",
+                "thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+                "name": "brushed_fleece_joggers_in_heather_grey",
+                "alt": ""
+            },
+            {
+                "id": 21,
+                "src": "https://api.meidanm.net/wp-content/uploads/2026/06/minimalist_organic_cotton_t_shirt-1.webp",
+                "thumbnail": "https://api.meidanm.net/wp-content/uploads/2026/06/minimalist_organic_cotton_t_shirt-1-300x300.webp",
+                "srcset": "https://api.meidanm.net/wp-content/uploads/2026/06/minimalist_organic_cotton_t_shirt-1.webp 864w, https://api.meidanm.net/wp-content/uploads/2026/06/minimalist_organic_cotton_t_shirt-1-600x822.webp 600w, https://api.meidanm.net/wp-content/uploads/2026/06/minimalist_organic_cotton_t_shirt-1-219x300.webp 219w, https://api.meidanm.net/wp-content/uploads/2026/06/minimalist_organic_cotton_t_shirt-1-747x1024.webp 747w, https://api.meidanm.net/wp-content/uploads/2026/06/minimalist_organic_cotton_t_shirt-1-768x1052.webp 768w",
+                "sizes": "(max-width: 864px) 100vw, 864px",
+                "thumbnail_srcset": "https://api.meidanm.net/wp-content/uploads/2026/06/minimalist_organic_cotton_t_shirt-1-300x300.webp 300w, https://api.meidanm.net/wp-content/uploads/2026/06/minimalist_organic_cotton_t_shirt-1-100x100.webp 100w, https://api.meidanm.net/wp-content/uploads/2026/06/minimalist_organic_cotton_t_shirt-1-150x150.webp 150w",
+                "thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+                "name": "minimalist_organic_cotton_t_shirt",
+                "alt": ""
+            }
+        ],
+        "categories": [],
+        "tags": [],
+        "brands": [],
+        "attributes": [
+            {
+                "id": 0,
+                "name": "color",
+                "taxonomy": null,
+                "has_variations": true,
+                "terms": [
+                    {
+                        "id": 0,
+                        "name": "White",
+                        "slug": "White"
+                    },
+                    {
+                        "id": 0,
+                        "name": "Black",
+                        "slug": "Black"
+                    },
+                    {
+                        "id": 0,
+                        "name": "Blue",
+                        "slug": "Blue"
+                    }
+                ]
+            }
+        ],
+        "variations": [
+            {
+                "id": 131,
+                "attributes": [
+                    {
+                        "name": "color",
+                        "value": null
+                    }
+                ]
+            }
+        ],
+        "grouped_products": [],
+        "has_options": true,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "stock_availability": {
+            "text": "",
+            "class": "in-stock"
+        },
+        "sold_individually": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "formatted_weight": "N/A",
+        "formatted_dimensions": "N/A",
+        "add_to_cart": {
+            "text": "Select options",
+            "description": "Select options for &ldquo;Merino wool knit sweater in cream&rdquo;",
+            "url": "https://api.meidanm.net/product/merino-wool-knit-sweater-in-cream/",
+            "single_text": "Add to cart",
+            "minimum": 1,
+            "maximum": 9999,
+            "multiple_of": 1
+        },
+        "is_password_protected": false,
+        "extensions": {
+            "qwoo": {
+                "default_category": {
+                    "id": 15,
+                    "name": "Uncategorized-1",
+                    "slug": "uncategorized"
+                }
+            },
+            "offline_order": {
+                "menu_order": 0,
+                "total_sales": 0,
+                "average_rating": 0
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products/130",
+                    "targetHints": {
+                        "allow": [
+                            "GET"
+                        ]
+                    }
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products"
+                }
+            ],
+            "related": [
+                {
+                    "embeddable": true,
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products?related=130&per_page=10"
+                }
+            ]
+        }
+    },
+    {
+        "id": 129,
+        "name": "Classic oxford button down shirt",
+        "slug": "classic-oxford-button-down-shirt",
+        "parent": 0,
+        "type": "simple",
+        "variation": "",
+        "permalink": "https://api.meidanm.net/product/classic-oxford-button-down-shirt/",
+        "sku": "",
+        "short_description": "",
+        "description": "<p data-start=\"2360\" data-end=\"2504\">A timeless oxford button-down shirt designed for a clean, structured look suitable for both casual and smart occasions.</p>",
+        "on_sale": true,
+        "prices": {
+            "price": "11900",
+            "regular_price": "15000",
+            "sale_price": "11900",
+            "price_range": null,
+            "currency_code": "ILS",
+            "currency_symbol": "\u20aa",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "\u20aa",
+            "currency_suffix": ""
+        },
+        "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>150.00</span></del> <span class=\"screen-reader-text\">Original price was: &#8362;150.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>119.00</span></ins><span class=\"screen-reader-text\">Current price is: &#8362;119.00.</span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [
+            {
+                "id": 18,
+                "src": "https://api.meidanm.net/wp-content/uploads/2026/06/classic_oxford_button_down_shirt.webp",
+                "thumbnail": "https://api.meidanm.net/wp-content/uploads/2026/06/classic_oxford_button_down_shirt-300x300.webp",
+                "srcset": "https://api.meidanm.net/wp-content/uploads/2026/06/classic_oxford_button_down_shirt.webp 864w, https://api.meidanm.net/wp-content/uploads/2026/06/classic_oxford_button_down_shirt-600x822.webp 600w, https://api.meidanm.net/wp-content/uploads/2026/06/classic_oxford_button_down_shirt-219x300.webp 219w, https://api.meidanm.net/wp-content/uploads/2026/06/classic_oxford_button_down_shirt-747x1024.webp 747w, https://api.meidanm.net/wp-content/uploads/2026/06/classic_oxford_button_down_shirt-768x1052.webp 768w",
+                "sizes": "(max-width: 864px) 100vw, 864px",
+                "thumbnail_srcset": "https://api.meidanm.net/wp-content/uploads/2026/06/classic_oxford_button_down_shirt-300x300.webp 300w, https://api.meidanm.net/wp-content/uploads/2026/06/classic_oxford_button_down_shirt-100x100.webp 100w, https://api.meidanm.net/wp-content/uploads/2026/06/classic_oxford_button_down_shirt-150x150.webp 150w",
+                "thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+                "name": "classic_oxford_button_down_shirt",
+                "alt": ""
+            }
+        ],
+        "categories": [],
+        "tags": [],
+        "brands": [],
+        "attributes": [],
+        "variations": [],
+        "grouped_products": [],
+        "has_options": false,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "stock_availability": {
+            "text": "",
+            "class": "in-stock"
+        },
+        "sold_individually": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "formatted_weight": "N/A",
+        "formatted_dimensions": "N/A",
+        "add_to_cart": {
+            "text": "Add to cart",
+            "description": "Add to cart: &ldquo;Classic oxford button down shirt&rdquo;",
+            "url": "/wp-json/wc/store/products?page=3&#038;per_page=6&#038;include_sort_meta=true&#038;add-to-cart=129",
+            "single_text": "Add to cart",
+            "minimum": 1,
+            "maximum": 9999,
+            "multiple_of": 1
+        },
+        "is_password_protected": false,
+        "extensions": {
+            "qwoo": {
+                "default_category": {
+                    "id": 15,
+                    "name": "Uncategorized-1",
+                    "slug": "uncategorized"
+                }
+            },
+            "offline_order": {
+                "menu_order": 0,
+                "total_sales": 0,
+                "average_rating": 0
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products/129",
+                    "targetHints": {
+                        "allow": [
+                            "GET"
+                        ]
+                    }
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products"
+                }
+            ],
+            "related": [
+                {
+                    "embeddable": true,
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products?related=129&per_page=10"
+                }
+            ]
+        }
+    },
+    {
+        "id": 128,
+        "name": "Quilted puffer vest in matte black",
+        "slug": "quilted-puffer-vest-in-matte-black",
+        "parent": 0,
+        "type": "simple",
+        "variation": "",
+        "permalink": "https://api.meidanm.net/product/quilted-puffer-vest-in-matte-black/",
+        "sku": "",
+        "short_description": "",
+        "description": "<p data-start=\"3086\" data-end=\"3318\">This quilted puffer vest is designed to provide core warmth without restricting movement. The matte black finish gives it a modern, understated aesthetic that fits seamlessly into urban and outdoor wardrobes.</p>\n<p data-start=\"3320\" data-end=\"3451\">Ideal for layering over shirts, sweaters, or hoodies, it balances insulation and breathability for transitional weather conditions.</p>",
+        "on_sale": true,
+        "prices": {
+            "price": "11900",
+            "regular_price": "15000",
+            "sale_price": "11900",
+            "price_range": null,
+            "currency_code": "ILS",
+            "currency_symbol": "\u20aa",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "\u20aa",
+            "currency_suffix": ""
+        },
+        "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>150.00</span></del> <span class=\"screen-reader-text\">Original price was: &#8362;150.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>119.00</span></ins><span class=\"screen-reader-text\">Current price is: &#8362;119.00.</span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [
+            {
+                "id": 19,
+                "src": "https://api.meidanm.net/wp-content/uploads/2026/06/quilted_puffer_vest_in_matte_black.webp",
+                "thumbnail": "https://api.meidanm.net/wp-content/uploads/2026/06/quilted_puffer_vest_in_matte_black-300x300.webp",
+                "srcset": "https://api.meidanm.net/wp-content/uploads/2026/06/quilted_puffer_vest_in_matte_black.webp 864w, https://api.meidanm.net/wp-content/uploads/2026/06/quilted_puffer_vest_in_matte_black-600x822.webp 600w, https://api.meidanm.net/wp-content/uploads/2026/06/quilted_puffer_vest_in_matte_black-219x300.webp 219w, https://api.meidanm.net/wp-content/uploads/2026/06/quilted_puffer_vest_in_matte_black-747x1024.webp 747w, https://api.meidanm.net/wp-content/uploads/2026/06/quilted_puffer_vest_in_matte_black-768x1052.webp 768w",
+                "sizes": "(max-width: 864px) 100vw, 864px",
+                "thumbnail_srcset": "https://api.meidanm.net/wp-content/uploads/2026/06/quilted_puffer_vest_in_matte_black-300x300.webp 300w, https://api.meidanm.net/wp-content/uploads/2026/06/quilted_puffer_vest_in_matte_black-100x100.webp 100w, https://api.meidanm.net/wp-content/uploads/2026/06/quilted_puffer_vest_in_matte_black-150x150.webp 150w",
+                "thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+                "name": "quilted_puffer_vest_in_matte_black",
+                "alt": ""
+            }
+        ],
+        "categories": [],
+        "tags": [],
+        "brands": [],
+        "attributes": [],
+        "variations": [],
+        "grouped_products": [],
+        "has_options": false,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "stock_availability": {
+            "text": "",
+            "class": "in-stock"
+        },
+        "sold_individually": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "formatted_weight": "N/A",
+        "formatted_dimensions": "N/A",
+        "add_to_cart": {
+            "text": "Add to cart",
+            "description": "Add to cart: &ldquo;Quilted puffer vest in matte black&rdquo;",
+            "url": "/wp-json/wc/store/products?page=3&#038;per_page=6&#038;include_sort_meta=true&#038;add-to-cart=128",
+            "single_text": "Add to cart",
+            "minimum": 1,
+            "maximum": 9999,
+            "multiple_of": 1
+        },
+        "is_password_protected": false,
+        "extensions": {
+            "qwoo": {
+                "default_category": {
+                    "id": 15,
+                    "name": "Uncategorized-1",
+                    "slug": "uncategorized"
+                }
+            },
+            "offline_order": {
+                "menu_order": 0,
+                "total_sales": 0,
+                "average_rating": 0
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products/128",
+                    "targetHints": {
+                        "allow": [
+                            "GET"
+                        ]
+                    }
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products"
+                }
+            ],
+            "related": [
+                {
+                    "embeddable": true,
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products?related=128&per_page=10"
+                }
+            ]
+        }
+    },
+    {
+        "id": 127,
+        "name": "Brushed fleece joggers in heather grey",
+        "slug": "brushed-fleece-joggers-in-heather-grey",
+        "parent": 0,
+        "type": "simple",
+        "variation": "",
+        "permalink": "https://api.meidanm.net/product/brushed-fleece-joggers-in-heather-grey/",
+        "sku": "",
+        "short_description": "",
+        "description": "<p data-start=\"3647\" data-end=\"3834\">These brushed fleece joggers are built for comfort-first dressing, offering a soft interior texture and a relaxed fit suitable for home, travel, or casual outings.</p>\n<p data-start=\"3836\" data-end=\"3964\">The heather grey tone keeps the design neutral and versatile, making it easy to pair with hoodies, tees, or lightweight jackets.</p>",
+        "on_sale": true,
+        "prices": {
+            "price": "11900",
+            "regular_price": "15000",
+            "sale_price": "11900",
+            "price_range": null,
+            "currency_code": "ILS",
+            "currency_symbol": "\u20aa",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "\u20aa",
+            "currency_suffix": ""
+        },
+        "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>150.00</span></del> <span class=\"screen-reader-text\">Original price was: &#8362;150.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>119.00</span></ins><span class=\"screen-reader-text\">Current price is: &#8362;119.00.</span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [
+            {
+                "id": 20,
+                "src": "https://api.meidanm.net/wp-content/uploads/2026/06/brushed_fleece_joggers_in_heather_grey.webp",
+                "thumbnail": "https://api.meidanm.net/wp-content/uploads/2026/06/brushed_fleece_joggers_in_heather_grey-300x300.webp",
+                "srcset": "https://api.meidanm.net/wp-content/uploads/2026/06/brushed_fleece_joggers_in_heather_grey.webp 864w, https://api.meidanm.net/wp-content/uploads/2026/06/brushed_fleece_joggers_in_heather_grey-600x822.webp 600w, https://api.meidanm.net/wp-content/uploads/2026/06/brushed_fleece_joggers_in_heather_grey-219x300.webp 219w, https://api.meidanm.net/wp-content/uploads/2026/06/brushed_fleece_joggers_in_heather_grey-747x1024.webp 747w, https://api.meidanm.net/wp-content/uploads/2026/06/brushed_fleece_joggers_in_heather_grey-768x1052.webp 768w",
+                "sizes": "(max-width: 864px) 100vw, 864px",
+                "thumbnail_srcset": "https://api.meidanm.net/wp-content/uploads/2026/06/brushed_fleece_joggers_in_heather_grey-300x300.webp 300w, https://api.meidanm.net/wp-content/uploads/2026/06/brushed_fleece_joggers_in_heather_grey-100x100.webp 100w, https://api.meidanm.net/wp-content/uploads/2026/06/brushed_fleece_joggers_in_heather_grey-150x150.webp 150w",
+                "thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+                "name": "brushed_fleece_joggers_in_heather_grey",
+                "alt": ""
+            }
+        ],
+        "categories": [],
+        "tags": [],
+        "brands": [],
+        "attributes": [],
+        "variations": [],
+        "grouped_products": [],
+        "has_options": false,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "stock_availability": {
+            "text": "",
+            "class": "in-stock"
+        },
+        "sold_individually": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "formatted_weight": "N/A",
+        "formatted_dimensions": "N/A",
+        "add_to_cart": {
+            "text": "Add to cart",
+            "description": "Add to cart: &ldquo;Brushed fleece joggers in heather grey&rdquo;",
+            "url": "/wp-json/wc/store/products?page=3&#038;per_page=6&#038;include_sort_meta=true&#038;add-to-cart=127",
+            "single_text": "Add to cart",
+            "minimum": 1,
+            "maximum": 9999,
+            "multiple_of": 1
+        },
+        "is_password_protected": false,
+        "extensions": {
+            "qwoo": {
+                "default_category": {
+                    "id": 15,
+                    "name": "Uncategorized-1",
+                    "slug": "uncategorized"
+                }
+            },
+            "offline_order": {
+                "menu_order": 0,
+                "total_sales": 0,
+                "average_rating": 0
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products/127",
+                    "targetHints": {
+                        "allow": [
+                            "GET"
+                        ]
+                    }
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products"
+                }
+            ],
+            "related": [
+                {
+                    "embeddable": true,
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products?related=127&per_page=10"
+                }
+            ]
+        }
+    },
+    {
+        "id": 126,
+        "name": "Minimalist organic cotton t-shirt",
+        "slug": "minimalist-organic-cotton-t-shirt",
+        "parent": 0,
+        "type": "simple",
+        "variation": "",
+        "permalink": "https://api.meidanm.net/product/minimalist-organic-cotton-t-shirt/",
+        "sku": "",
+        "short_description": "",
+        "description": "<p data-start=\"4146\" data-end=\"4331\">This organic cotton t-shirt focuses on simplicity, comfort, and sustainability. The fabric is soft yet structured enough to maintain shape throughout daily wear.</p>\n<p data-start=\"4333\" data-end=\"4504\">Its minimalist aesthetic makes it a foundational wardrobe piece, ideal for layering or wearing on its own. The neutral design supports a wide range of outfit combinations.</p>",
+        "on_sale": true,
+        "prices": {
+            "price": "11900",
+            "regular_price": "15000",
+            "sale_price": "11900",
+            "price_range": null,
+            "currency_code": "ILS",
+            "currency_symbol": "\u20aa",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "\u20aa",
+            "currency_suffix": ""
+        },
+        "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>150.00</span></del> <span class=\"screen-reader-text\">Original price was: &#8362;150.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>119.00</span></ins><span class=\"screen-reader-text\">Current price is: &#8362;119.00.</span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [
+            {
+                "id": 12,
+                "src": "https://api.meidanm.net/wp-content/uploads/2026/06/minimalist_organic_cotton_t_shirt.webp",
+                "thumbnail": "https://api.meidanm.net/wp-content/uploads/2026/06/minimalist_organic_cotton_t_shirt-300x300.webp",
+                "srcset": "https://api.meidanm.net/wp-content/uploads/2026/06/minimalist_organic_cotton_t_shirt.webp 864w, https://api.meidanm.net/wp-content/uploads/2026/06/minimalist_organic_cotton_t_shirt-600x822.webp 600w, https://api.meidanm.net/wp-content/uploads/2026/06/minimalist_organic_cotton_t_shirt-219x300.webp 219w, https://api.meidanm.net/wp-content/uploads/2026/06/minimalist_organic_cotton_t_shirt-747x1024.webp 747w, https://api.meidanm.net/wp-content/uploads/2026/06/minimalist_organic_cotton_t_shirt-768x1052.webp 768w",
+                "sizes": "(max-width: 864px) 100vw, 864px",
+                "thumbnail_srcset": "https://api.meidanm.net/wp-content/uploads/2026/06/minimalist_organic_cotton_t_shirt-300x300.webp 300w, https://api.meidanm.net/wp-content/uploads/2026/06/minimalist_organic_cotton_t_shirt-100x100.webp 100w, https://api.meidanm.net/wp-content/uploads/2026/06/minimalist_organic_cotton_t_shirt-150x150.webp 150w",
+                "thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+                "name": "minimalist_organic_cotton_t_shirt",
+                "alt": ""
+            }
+        ],
+        "categories": [],
+        "tags": [],
+        "brands": [],
+        "attributes": [],
+        "variations": [],
+        "grouped_products": [],
+        "has_options": false,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "stock_availability": {
+            "text": "9 in stock",
+            "class": "in-stock"
+        },
+        "sold_individually": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "formatted_weight": "N/A",
+        "formatted_dimensions": "N/A",
+        "add_to_cart": {
+            "text": "Add to cart",
+            "description": "Add to cart: &ldquo;Minimalist organic cotton t-shirt&rdquo;",
+            "url": "/wp-json/wc/store/products?page=4&#038;per_page=6&#038;include_sort_meta=true&#038;add-to-cart=126",
+            "single_text": "Add to cart",
+            "minimum": 1,
+            "maximum": 9,
+            "multiple_of": 1
+        },
+        "is_password_protected": false,
+        "extensions": {
+            "qwoo": {
+                "default_category": {
+                    "id": 15,
+                    "name": "Uncategorized-1",
+                    "slug": "uncategorized"
+                }
+            },
+            "offline_order": {
+                "menu_order": 0,
+                "total_sales": 0,
+                "average_rating": 0
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products/126",
+                    "targetHints": {
+                        "allow": [
+                            "GET"
+                        ]
+                    }
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products"
+                }
+            ],
+            "related": [
+                {
+                    "embeddable": true,
+                    "href": "https://api.meidanm.net/wp-json/wc/store/products?related=126&per_page=10"
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,32 @@
+{
+    "hero_title": "Everyday Essentials, <span>Made to Last</span>",
+    "featured_products": [
+        32,
+        43,
+        48,
+        31,
+        27
+    ],
+    "sections": [
+        {
+            "id": "sec_ov8s6j0009",
+            "type": "testimonials",
+            "enabled": true,
+            "data": {
+                "title": "",
+                "items": []
+            }
+        },
+        {
+            "id": "sec_hfjyxv8t6y",
+            "type": "category_grid",
+            "enabled": true,
+            "data": {
+                "title": "",
+                "category_ids": []
+            }
+        }
+    ],
+    "hero_description": "Thoughtfully made knitwear and accessories, crafted from responsibly sourced natural fibers for comfort that lasts season after season.",
+    "hero_image": "https://api.meidanm.net/wp-content/uploads/2026/06/qwoo-hero-image.webp"
+}

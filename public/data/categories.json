@@ -1,0 +1,13 @@
+[
+    {
+        "id": 15,
+        "name": "Uncategorized-1",
+        "slug": "uncategorized",
+        "description": "",
+        "parent": 0,
+        "count": 9,
+        "image": null,
+        "review_count": 0,
+        "permalink": "https://api.meidanm.com/product-category/uncategorized/"
+    }
+]

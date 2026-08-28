@@ -1,0 +1,39 @@
+{
+    "announcement": {
+        "enabled": true,
+        "text": "NEW HOLLIDAY SALE!",
+        "bg_color": "#000000",
+        "text_color": "#ffffff"
+    },
+    "navigation": [
+        {
+            "key": "0",
+            "label": "Home",
+            "enabled": true
+        },
+        {
+            "key": "1",
+            "label": "Products",
+            "enabled": true
+        },
+        {
+            "key": "2",
+            "label": "Cart",
+            "enabled": true
+        },
+        {
+            "key": "3",
+            "label": "Checkout",
+            "enabled": true
+        },
+        {
+            "key": "4",
+            "label": "My Account",
+            "enabled": true
+        }
+    ],
+    "settings": {
+        "sticky": true,
+        "show_search": false
+    }
+}

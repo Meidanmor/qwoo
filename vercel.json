@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "functions": {
+    "api/server.js": {
+      "includeFiles": "dist/ssr/**"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/robots.txt",
+      "destination": "/api/robots"
+    },
+    {
+      "source": "/sitemap.xml",
+      "destination": "/api/sitemap"
+    },
+    {
+      "source": "/llms.txt",
+      "destination": "/api/llms"
+    },
+    {
+      "source": "/_quasar/(.*)",
+      "destination": "/dist/ssr/client/_quasar/$1"
+    },
+    {
+      "source": "/(js|css|fonts|icons|sw.js|favicon.ico|data)/(.*)",
+      "destination": "/dist/ssr/client/$1/$2"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/api/server.js"
+    }
+  ]
+}

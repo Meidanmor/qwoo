@@ -1,0 +1,114 @@
+.q-breadcrumbs,
+h1{
+  margin: 20px 0;
+}
+
+.q-breadcrumbs,
+h1,
+.products-wrap > row,
+.total-products {
+    padding: 0 16px;
+}
+
+.archive-layout.flex {
+  column-gap: 20px;
+}
+.my-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.products-wrap {
+  flex: 1;
+  padding-bottom: 20px;
+}
+
+.products-inner {
+  flex: 100%;
+}
+.filters-wrap {
+  width: 25%;
+  row-gap: 25px;
+  flex-direction: column;
+  position: sticky;
+  top: 70px;
+  height: fit-content;
+}
+
+.products-wrap .q-select {
+  min-width: 160px;
+}
+
+.q-checkbox[aria-checked="true"] .q-checkbox__label {
+    font-weight: 600;
+}
+
+@media(max-width: 767px) {
+    .filters-wrap {
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 10px;
+        z-index: 9999;
+        height: 100dvh;
+        background: var(--q-primary);
+        width: 85%;
+        box-shadow: 0 0 50px #00000050;
+        opacity: 0;
+        pointer-events: none;
+        visibility: hidden;
+        transform: translateX(-100%);
+        transition: 0.3s ease;
+    }
+
+    .filters-wrap.shown {
+        transform: translateX(0);
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    .flex.justify-between.q-mb-md.sticky {
+        position: sticky;
+        top: 58px;
+        z-index: 9;
+        background: var(--q-primary);
+        padding: 10px;
+    }
+
+    .products-inner {
+        padding: 20px 16px 0;
+    }
+
+    .products-inner > :deep(div) {
+        width: 50%;
+    }
+
+    .products-inner :deep(.q-card) {
+        padding: 0;
+    }
+
+    .products-inner :deep(img) {
+        max-height: 250px;
+    }
+}
+
+@media(min-width: 768px){
+  .products-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+    .archive-layout {
+        padding: 0 16px;
+    }
+  .flex.justify-between.q-mb-md {
+    width: fit-content;
+    display: inline-flex;
+    align-items: center;
+  }
+  .pagination-btns {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

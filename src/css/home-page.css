@@ -1,0 +1,205 @@
+.hero-section-sec{--text:#1e1e1e;--muted:#6f6f6f;--card-shadow:0 12px 40px rgba(16,16,16,0.08);position:relative;inset:0;background: var(--q-primary);}
+.hero-section{padding:0 20px;position:relative;overflow:hidden;z-index:1;width:100%}
+.hero-content h1{overflow-wrap:anywhere;margin-top:0;margin-bottom:12px;display:block}
+.hero-content .text-h6{max-width:450px;margin-bottom:24px;color: var(--q-text);font-weight:400}
+.lcp-wrapper{display:block;width:100%;aspect-ratio:3/2;position:relative;overflow:hidden;border-radius:4px;/*background:rgba(0,0,0,.03);contain:paint;transform:translateZ(0)*/}
+.hero-section-sec .hero-img{width:100%;height:100%;display:block;object-fit:cover;position: absolute; left:0; top:0;object-position: top}
+@media (min-width:768px){.lcp-wrapper{width:50%}.hero-content h1{font-size:4rem}}
+
+@keyframes gradientAnimation {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
+.advantage-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+}
+section.advantages {
+  background: #FBF9F8;
+}
+section.featured-products {
+    min-height: 664px;
+  background: #FBF9F8;
+}
+
+div.q-img__loading > svg{
+  display: none;
+}
+
+.my-card img {
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.pre-animate {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.newsletter-section {
+  content-visibility: auto;
+}
+
+/* HOMEPAGE DEFFERED CSS */
+.cta-section {
+  position: relative;
+  overflow: hidden;
+  min-height: 400px;
+  /*padding: 0;*/
+  background: #e9e9e9;
+}
+.cta-section .container {
+  height: 100%;
+}
+
+.cta-section .cta-img img {
+  max-width: 100%;
+  object-fit: cover;
+  margin: 0 auto;
+}
+.cta-overlay {
+  position: relative;
+  /*z-index: 1;
+  height: 100%;
+  background: linear-gradient(-45deg, #4c6e5d96, var(--q-primary), #4c6e5d96);
+  background-size: 600% 600%;
+  animation: none;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 40px 20px;
+  overflow: hidden;
+}
+.cta-content {
+  max-width: 600px;
+  margin: 0 auto auto;
+  padding-top: 40px;
+}
+.cta-content .pre-title {
+ text-transform: uppercase;
+  font-weight: 500;
+}
+.cta-content .desc {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+@media(max-width: 767px) {
+  section.hero-section-sec:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    opacity: 0.4;
+    z-index: 1;
+  }
+  .hero-content h1.text-h1 {
+    font-size: 14vw;
+  }
+
+  .hero-section {
+    padding: 0px;
+  }
+
+}
+@media(max-width: 1023px){
+  section.hero-section-sec {
+    min-height: 70vh;
+  }
+  .advantage-card {
+    margin-bottom: 20px;
+    border-bottom: 1px solid;
+    width: 100%;
+  }
+  .cta-overlay {
+    flex-direction: column;
+  }
+  .cta-section .cta-img img {
+    max-height: 200px;
+  }
+}
+@media(min-width: 600px) {
+  .row.justify-between .col-md-4 {
+    width: calc(100% / 2 - 10px);
+  }
+}
+@media(min-width: 1024px) {
+  section.hero-section-sec {
+    min-height: 75vh;
+  }
+  .row.justify-between .col-md-4 {
+    width: calc(100% / 3 - 10px);
+  }
+  .hero-content.col-12.col-md-6.q-mb-lg {
+    padding-right: 35px;
+  }
+
+  .cta-section .cta-img {
+    width: 50%;
+  }
+  .cta-content {
+    padding: 40px 20px;
+  }
+  .advantage-card {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: calc(100%/3);
+    max-width: 300px;
+  }
+}
+
+/*.cta-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(45deg, black, transparent);
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.6) blur(2px);
+  z-index: 0;
+}*/
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.cta-overlay.animate-bg {
+    animation: gradientShift 10s ease infinite;
+}
+
+
+.testimonials-section {
+  background: var(--q-primary);
+}
+.testimonials-section .q-card {
+  transition: transform 0.3s;
+}
+.testimonials-section q-card:hover {
+  transform: translateY(-5px);
+}
+
+.newsletter-section .container {
+  max-width: 896px;
+  background: #e7e2d4;
+  border-radius: 28px;
+  padding: 70px 16px;
+}
+.newsletter-section .q-field__control {
+  border-radius: 5px;
+}
+
+.subscribe-email-input {
+  max-width: 500px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
