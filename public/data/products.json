@@ -90,8 +90,8 @@
                 }
             },
             "offline_order": {
-                "menu_order": 0,
-                "total_sales": 0,
+                "menu_order": 18,
+                "total_sales": 18,
                 "average_rating": 0
             }
         },
@@ -210,8 +210,8 @@
                 }
             },
             "offline_order": {
-                "menu_order": 0,
-                "total_sales": 0,
+                "menu_order": 6,
+                "total_sales": 11,
                 "average_rating": 0
             }
         },
@@ -244,17 +244,17 @@
         "name": "Stainless Steel Water Bottle",
         "slug": "stainless-steel-water-bottle",
         "parent": 0,
-        "type": "simple",
+        "type": "variable",
         "variation": "",
         "permalink": "https://api.meidanm.net/product/stainless-steel-water-bottle/",
         "sku": "",
         "short_description": "",
         "description": "<p data-start=\"408\" data-end=\"581\">Insulated stainless steel bottle designed to keep drinks cold or hot throughout the day. Durable, reusable, and travel friendly.</p>",
-        "on_sale": true,
+        "on_sale": false,
         "prices": {
-            "price": "18700",
-            "regular_price": "20000",
-            "sale_price": "18700",
+            "price": "0",
+            "regular_price": "0",
+            "sale_price": "0",
             "price_range": null,
             "currency_code": "ILS",
             "currency_symbol": "\u20aa",
@@ -264,7 +264,7 @@
             "currency_prefix": "\u20aa",
             "currency_suffix": ""
         },
-        "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>200.00</span></del> <span class=\"screen-reader-text\">Original price was: &#8362;200.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>187.00</span></ins><span class=\"screen-reader-text\">Current price is: &#8362;187.00.</span>",
+        "price_html": "",
         "average_rating": "0",
         "review_count": 0,
         "images": [
@@ -290,17 +290,56 @@
         ],
         "tags": [],
         "brands": [],
-        "attributes": [],
-        "variations": [],
+        "attributes": [
+            {
+                "id": 0,
+                "name": "Color",
+                "taxonomy": null,
+                "has_variations": true,
+                "terms": [
+                    {
+                        "id": 0,
+                        "name": "Green",
+                        "slug": "Green"
+                    },
+                    {
+                        "id": 0,
+                        "name": "Blue",
+                        "slug": "Blue"
+                    },
+                    {
+                        "id": 0,
+                        "name": "Black",
+                        "slug": "Black"
+                    },
+                    {
+                        "id": 0,
+                        "name": "White",
+                        "slug": "White"
+                    }
+                ]
+            }
+        ],
+        "variations": [
+            {
+                "id": 184,
+                "attributes": [
+                    {
+                        "name": "Color",
+                        "value": null
+                    }
+                ]
+            }
+        ],
         "grouped_products": [],
-        "has_options": false,
-        "is_purchasable": true,
+        "has_options": true,
+        "is_purchasable": false,
         "is_in_stock": true,
         "is_on_backorder": false,
         "low_stock_remaining": null,
         "stock_availability": {
-            "text": "",
-            "class": "in-stock"
+            "text": "Out of stock",
+            "class": "out-of-stock"
         },
         "sold_individually": false,
         "weight": "",
@@ -312,9 +351,9 @@
         "formatted_weight": "N/A",
         "formatted_dimensions": "N/A",
         "add_to_cart": {
-            "text": "Add to cart",
-            "description": "Add to cart: &ldquo;Stainless Steel Water Bottle&rdquo;",
-            "url": "/wp-json/wc/store/products?page=1&#038;per_page=6&#038;include_sort_meta=true&#038;add-to-cart=151",
+            "text": "Read more",
+            "description": "Select options for &ldquo;Stainless Steel Water Bottle&rdquo;",
+            "url": "https://api.meidanm.net/product/stainless-steel-water-bottle/",
             "single_text": "Add to cart",
             "minimum": 1,
             "maximum": 9999,
@@ -330,8 +369,8 @@
                 }
             },
             "offline_order": {
-                "menu_order": 0,
-                "total_sales": 1,
+                "menu_order": 20,
+                "total_sales": 2,
                 "average_rating": 0
             }
         },
@@ -450,8 +489,8 @@
                 }
             },
             "offline_order": {
-                "menu_order": 0,
-                "total_sales": 0,
+                "menu_order": 13,
+                "total_sales": 1,
                 "average_rating": 0
             }
         },
@@ -570,7 +609,7 @@
                 }
             },
             "offline_order": {
-                "menu_order": 0,
+                "menu_order": 15,
                 "total_sales": 0,
                 "average_rating": 0
             }
@@ -690,8 +729,8 @@
                 }
             },
             "offline_order": {
-                "menu_order": 0,
-                "total_sales": 0,
+                "menu_order": 19,
+                "total_sales": 1,
                 "average_rating": 0
             }
         },
@@ -810,7 +849,7 @@
                 }
             },
             "offline_order": {
-                "menu_order": 0,
+                "menu_order": 21,
                 "total_sales": 0,
                 "average_rating": 0
             }
@@ -930,7 +969,7 @@
                 }
             },
             "offline_order": {
-                "menu_order": 0,
+                "menu_order": 4,
                 "total_sales": 0,
                 "average_rating": 0
             }
@@ -1050,7 +1089,7 @@
                 }
             },
             "offline_order": {
-                "menu_order": 0,
+                "menu_order": 16,
                 "total_sales": 0,
                 "average_rating": 0
             }
@@ -1170,7 +1209,7 @@
                 }
             },
             "offline_order": {
-                "menu_order": 0,
+                "menu_order": 2,
                 "total_sales": 0,
                 "average_rating": 0
             }
@@ -1290,7 +1329,7 @@
                 }
             },
             "offline_order": {
-                "menu_order": 0,
+                "menu_order": 9,
                 "total_sales": 0,
                 "average_rating": 0
             }
@@ -1410,7 +1449,7 @@
                 }
             },
             "offline_order": {
-                "menu_order": 0,
+                "menu_order": 14,
                 "total_sales": 0,
                 "average_rating": 0
             }
@@ -1480,7 +1519,14 @@
                 "alt": ""
             }
         ],
-        "categories": [],
+        "categories": [
+            {
+                "id": 19,
+                "name": "Accessories",
+                "slug": "accessories",
+                "link": "https://api.meidanm.net/product-category/accessories/"
+            }
+        ],
         "tags": [],
         "brands": [],
         "attributes": [],
@@ -1517,13 +1563,13 @@
         "extensions": {
             "qwoo": {
                 "default_category": {
-                    "id": 15,
-                    "name": "Uncategorized-1",
-                    "slug": "uncategorized"
+                    "id": 19,
+                    "name": "Accessories",
+                    "slug": "accessories"
                 }
             },
             "offline_order": {
-                "menu_order": 0,
+                "menu_order": 5,
                 "total_sales": 0,
                 "average_rating": 0
             }
@@ -1593,7 +1639,14 @@
                 "alt": ""
             }
         ],
-        "categories": [],
+        "categories": [
+            {
+                "id": 17,
+                "name": "Clothing",
+                "slug": "clothing",
+                "link": "https://api.meidanm.net/product-category/clothing/"
+            }
+        ],
         "tags": [],
         "brands": [],
         "attributes": [],
@@ -1630,13 +1683,13 @@
         "extensions": {
             "qwoo": {
                 "default_category": {
-                    "id": 15,
-                    "name": "Uncategorized-1",
-                    "slug": "uncategorized"
+                    "id": 17,
+                    "name": "Clothing",
+                    "slug": "clothing"
                 }
             },
             "offline_order": {
-                "menu_order": 0,
+                "menu_order": 7,
                 "total_sales": 0,
                 "average_rating": 0
             }
@@ -1739,7 +1792,14 @@
                 "alt": ""
             }
         ],
-        "categories": [],
+        "categories": [
+            {
+                "id": 17,
+                "name": "Clothing",
+                "slug": "clothing",
+                "link": "https://api.meidanm.net/product-category/clothing/"
+            }
+        ],
         "tags": [],
         "brands": [],
         "attributes": [
@@ -1810,13 +1870,13 @@
         "extensions": {
             "qwoo": {
                 "default_category": {
-                    "id": 15,
-                    "name": "Uncategorized-1",
-                    "slug": "uncategorized"
+                    "id": 17,
+                    "name": "Clothing",
+                    "slug": "clothing"
                 }
             },
             "offline_order": {
-                "menu_order": 0,
+                "menu_order": 8,
                 "total_sales": 0,
                 "average_rating": 0
             }
@@ -1886,7 +1946,14 @@
                 "alt": ""
             }
         ],
-        "categories": [],
+        "categories": [
+            {
+                "id": 17,
+                "name": "Clothing",
+                "slug": "clothing",
+                "link": "https://api.meidanm.net/product-category/clothing/"
+            }
+        ],
         "tags": [],
         "brands": [],
         "attributes": [],
@@ -1923,13 +1990,13 @@
         "extensions": {
             "qwoo": {
                 "default_category": {
-                    "id": 15,
-                    "name": "Uncategorized-1",
-                    "slug": "uncategorized"
+                    "id": 17,
+                    "name": "Clothing",
+                    "slug": "clothing"
                 }
             },
             "offline_order": {
-                "menu_order": 0,
+                "menu_order": 3,
                 "total_sales": 0,
                 "average_rating": 0
             }
@@ -1999,7 +2066,14 @@
                 "alt": ""
             }
         ],
-        "categories": [],
+        "categories": [
+            {
+                "id": 17,
+                "name": "Clothing",
+                "slug": "clothing",
+                "link": "https://api.meidanm.net/product-category/clothing/"
+            }
+        ],
         "tags": [],
         "brands": [],
         "attributes": [],
@@ -2036,13 +2110,13 @@
         "extensions": {
             "qwoo": {
                 "default_category": {
-                    "id": 15,
-                    "name": "Uncategorized-1",
-                    "slug": "uncategorized"
+                    "id": 17,
+                    "name": "Clothing",
+                    "slug": "clothing"
                 }
             },
             "offline_order": {
-                "menu_order": 0,
+                "menu_order": 17,
                 "total_sales": 0,
                 "average_rating": 0
             }
@@ -2112,7 +2186,14 @@
                 "alt": ""
             }
         ],
-        "categories": [],
+        "categories": [
+            {
+                "id": 17,
+                "name": "Clothing",
+                "slug": "clothing",
+                "link": "https://api.meidanm.net/product-category/clothing/"
+            }
+        ],
         "tags": [],
         "brands": [],
         "attributes": [],
@@ -2149,13 +2230,13 @@
         "extensions": {
             "qwoo": {
                 "default_category": {
-                    "id": 15,
-                    "name": "Uncategorized-1",
-                    "slug": "uncategorized"
+                    "id": 17,
+                    "name": "Clothing",
+                    "slug": "clothing"
                 }
             },
             "offline_order": {
-                "menu_order": 0,
+                "menu_order": 1,
                 "total_sales": 0,
                 "average_rating": 0
             }
@@ -2225,7 +2306,14 @@
                 "alt": ""
             }
         ],
-        "categories": [],
+        "categories": [
+            {
+                "id": 17,
+                "name": "Clothing",
+                "slug": "clothing",
+                "link": "https://api.meidanm.net/product-category/clothing/"
+            }
+        ],
         "tags": [],
         "brands": [],
         "attributes": [],
@@ -2262,13 +2350,13 @@
         "extensions": {
             "qwoo": {
                 "default_category": {
-                    "id": 15,
-                    "name": "Uncategorized-1",
-                    "slug": "uncategorized"
+                    "id": 17,
+                    "name": "Clothing",
+                    "slug": "clothing"
                 }
             },
             "offline_order": {
-                "menu_order": 0,
+                "menu_order": 12,
                 "total_sales": 0,
                 "average_rating": 0
             }
