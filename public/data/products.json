@@ -250,11 +250,11 @@
         "sku": "",
         "short_description": "",
         "description": "<p data-start=\"408\" data-end=\"581\">Insulated stainless steel bottle designed to keep drinks cold or hot throughout the day. Durable, reusable, and travel friendly.</p>",
-        "on_sale": false,
+        "on_sale": true,
         "prices": {
-            "price": "0",
-            "regular_price": "0",
-            "sale_price": "0",
+            "price": "15500",
+            "regular_price": "20000",
+            "sale_price": "15500",
             "price_range": null,
             "currency_code": "ILS",
             "currency_symbol": "\u20aa",
@@ -264,7 +264,7 @@
             "currency_prefix": "\u20aa",
             "currency_suffix": ""
         },
-        "price_html": "",
+        "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>200.00</span></del> <span class=\"screen-reader-text\">Original price was: &#8362;200.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8362;</span>155.00</span></ins><span class=\"screen-reader-text\">Current price is: &#8362;155.00.</span>",
         "average_rating": "0",
         "review_count": 0,
         "images": [
@@ -333,13 +333,13 @@
         ],
         "grouped_products": [],
         "has_options": true,
-        "is_purchasable": false,
+        "is_purchasable": true,
         "is_in_stock": true,
         "is_on_backorder": false,
         "low_stock_remaining": null,
         "stock_availability": {
-            "text": "Out of stock",
-            "class": "out-of-stock"
+            "text": "",
+            "class": "in-stock"
         },
         "sold_individually": false,
         "weight": "",
@@ -351,7 +351,7 @@
         "formatted_weight": "N/A",
         "formatted_dimensions": "N/A",
         "add_to_cart": {
-            "text": "Read more",
+            "text": "Select options",
             "description": "Select options for &ldquo;Stainless Steel Water Bottle&rdquo;",
             "url": "https://api.meidanm.net/product/stainless-steel-water-bottle/",
             "single_text": "Add to cart",
