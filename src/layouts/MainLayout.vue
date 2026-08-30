@@ -41,7 +41,9 @@
         behavior="mobile"
         v-if="uiHydrated"
     >
-      <WishlistDrawer />
+      <WishlistDrawer
+          @toggle-wishlist="toggleWishlistDrawer"
+      />
     </q-drawer>
     <!-------------- ------->
     <q-drawer
@@ -55,7 +57,9 @@
         :touch-area-width="250"
         v-if="uiHydrated"
     >
-      <CartDrawer />
+      <CartDrawer
+          @toggle-cart="toggleCart()"
+      />
     </q-drawer>
 
     <q-page-container style="padding-top: 0">

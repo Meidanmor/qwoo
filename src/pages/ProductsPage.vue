@@ -9,14 +9,23 @@
 
       <h1>Products</h1>
       <div class="archive-layout flex no-wrap">
-      <div class="filters-wrap flex" :class="{ 'shown': filtersOpen }" @pointerdown.stop >
-        <q-btn
-            class="mobile-only"
-            :icon="matClose"
-            color="secondary"
-            @click="filtersOpen = false"
-        />
-      <!-- Search and Filter -->
+
+        <div class="filters-wrap flex" :class="{ 'shown': filtersOpen }" @pointerdown.stop >
+          <q-scroll-area :visible="false" class="fit">
+
+          <div class="sticky filters-drawer-header flex justify-between q-mb-md">
+          <div class="text-h6">Filters</div>
+            <q-btn
+                class="mobile-only"
+                :icon="matClose"
+                flat
+                dense
+                @click="filtersOpen = false"
+                aria-label="Close filters drawer"
+            />
+        </div>
+
+        <!-- Search and Filter -->
         <div class="col-xs-12 col-md-6">
             <q-input filled v-model="search" label="Search products..." debounce="300" />
         </div>
@@ -40,9 +49,9 @@
         </div>
 
         <PriceFilterCard v-model="priceRange" :min="priceMin" :max="priceMax" @change="onPriceChange" />
+        </q-scroll-area>
 
         </div>
-
         <div class="products-wrap">
           <div v-if="paginatedProducts.length" class="flex justify-between q-mb-md total-products">
             <div v-if="totalProducts" class="text-subtitle1 q-mb-sm">

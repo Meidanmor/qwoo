@@ -578,7 +578,7 @@ footer .footer-bottom {
     align-items: flex-end;
 }
 .q-drawer .cart-drawer {
-   padding: 0 10px;
+   padding: 16px 16px 0;
 }
 .cart-drawer .q-scrollarea .q-scrollarea__content {
     display: flex;
@@ -594,10 +594,10 @@ header.sticky {
     bottom: 0;
     padding: 20px 0;
 }
-.q-drawer h4.sticky {
+.q-drawer .cart-drawer-header.sticky {
     position: sticky;
     top: 0;
-    padding: 10px 0;
+    padding: 0;
 }
 .q-drawer .sticky {
     z-index: 9;

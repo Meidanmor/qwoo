@@ -1,23 +1,11 @@
 <template>
   <q-scroll-area class="fit">
     <div class="q-pa-md">
-      <div class="text-h6 q-mb-md">Menu</div>
-
+      <div class="mobile-drawer-header flex justify-between q-mb-md">
+        <div class="text-h6">Menu</div>
+        <q-btn flat dense aria-label="Close menu" padding="none" :icon="matClose" @click="closeMenu"/>
+      </div>
       <q-list bordered padding>
-        <q-item
-            v-if="isSuperAdmin"
-            clickable
-            v-ripple
-            to="/admin"
-            active-class="text-primary"
-            @click="closeMenu"
-        >
-          <q-item-section avatar>
-            <q-icon :name="matAdminPanelSettings" />
-          </q-item-section>
-          <q-item-section>Go to Admin Panel</q-item-section>
-        </q-item>
-
         <q-item clickable v-ripple to="/" @click="closeMenu">
           <q-item-section avatar>
             <q-icon :name="matHome" />
@@ -81,7 +69,7 @@
 
 <script setup>
 import {
-  matAdminPanelSettings,
+  matClose,
   matShoppingCart,
   matHome,
   matStorefront,

@@ -2,7 +2,10 @@
     <q-scroll-area class="fit q-pa-sm">
 
     <div>
-    <h4> Wishlist </h4>
+      <div class="sticky wishlist-drawer-header flex justify-between q-mb-md">
+        <div class="text-h6">Wishlist</div>
+        <q-btn flat dense aria-label="Close wishlist drawer" padding="none" :icon="matClose" @click="emit('toggle-wishlist')"/>
+      </div>
       <div v-if="wishlist.state.items && wishlist.state.items.length === 0" class="text-center text-grey">
       Your wishlist is empty.
       </div>
@@ -27,6 +30,10 @@
 import cart from 'src/stores/cart.js'
 import wishlist from 'src/stores/wishlist.js'
 import { matClose } from '@quasar/extras/material-icons'
+
+const emit = defineEmits([
+  'toggle-wishlist',
+])
 
 function addToCart(p){
 cart.add(p.id, 1);
