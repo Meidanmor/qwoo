@@ -32,11 +32,12 @@ safelist: {
         // --- Drawer Fixes ---
         /q-drawer/,        // Re-added: Covers q-drawer, q-drawer--left, etc.
         'q-page-container', // Ensures page content shifts correctly
-
         // --- Header & Shadow Fixes ---
         'q-header--hidden',
         'q-layout__shadow',
         'absolute-full',
+        'fullscreen',
+        'fixed-full',
         'no-pointer-events',
         'overflow-hidden',
         'bg-black',
@@ -110,7 +111,7 @@ safelist: {
         'q-transition--slide-up',
     ],
     deep: [
-         /q-btn/, /q-icon/, /q-ripple/, /q-scrollarea/, /q-layout__shadow/, /q-drawer/, /q-list/, /^q-carousel/, /q-spinner/, /q-menu/, /q-select/, /q-img/, /q-field/, /q-input/, /q-textarea/, /q-option-group/, /q-radio/, /q-checkbox/, /^q-range/, /^q-slider/, /^q-tabs/
+        /q-btn/, /q-icon/, /q-ripple/, /q-scrollarea/, /q-layout__shadow/, /q-drawer/, /q-list/, /^q-carousel/, /q-spinner/, /q-menu/, /q-select/, /q-img/, /q-field/, /q-input/, /q-textarea/, /q-option-group/, /q-radio/, /q-checkbox/, /^q-range/, /^q-slider/, /^q-tabs/
     ],
     greedy: [ /q-transition/, /rotate/, /^q-radio/, /^q-range/]
 },
