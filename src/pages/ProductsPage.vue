@@ -26,7 +26,7 @@
         </div>
 
         <!-- Search and Filter -->
-        <div class="col-xs-12 col-md-6">
+        <div class="col-xs-12 col-md-6 q-mb-md">
             <q-input filled v-model="search" label="Search products..." debounce="300" />
         </div>
 

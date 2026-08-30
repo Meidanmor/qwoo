@@ -68,7 +68,7 @@ h1,
         pointer-events: auto;
     }
 
-    .flex.justify-between.q-mb-md.sticky {
+    .products-wrap > .flex.justify-between.q-mb-md.sticky {
         position: sticky;
         top: 58px;
         z-index: 9;

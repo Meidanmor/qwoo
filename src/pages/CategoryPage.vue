@@ -10,15 +10,27 @@
       <h1 v-html="safeCategoryName || 'Products'"></h1>
 
       <div class="archive-layout flex no-wrap">
-        <div class="filters-wrap flex" :class="{ 'shown': filtersOpen }">
-          <q-btn class="mobile-only" :icon="matClose" color="secondary" @click="filtersOpen = false" />
+        <div class="filters-wrap flex" :class="{ 'shown': filtersOpen }" @pointerdown.stop >
+          <q-scroll-area :visible="false" class="fit">
 
-          <div class="col-xs-12 col-md-6">
+            <div class="sticky filters-drawer-header flex justify-between q-mb-md">
+              <div class="text-h6">Filters</div>
+              <q-btn
+                  class="mobile-only"
+                  :icon="matClose"
+                  flat
+                  dense
+                  @click="filtersOpen = false"
+                  aria-label="Close filters drawer"
+              />
+            </div>
+
+          <div class="col-xs-12 col-md-6 q-mb-md">
             <q-input filled v-model="search" label="Search products..." debounce="300" />
           </div>
 
           <PriceFilterCard v-model="priceRange" :min="priceMin" :max="priceMax" @change="onPriceChange" />
-
+          </q-scroll-area>
         </div>
 
         <div class="products-wrap">
