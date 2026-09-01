@@ -102,7 +102,7 @@ const icons = {
   position: fixed;
   left: 16px;
   bottom: 16px;
-  z-index: 6000;
+  z-index: 999;
   display: flex;
   flex-direction: column;
   align-items: center;

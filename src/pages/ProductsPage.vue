@@ -11,7 +11,7 @@
       <div class="archive-layout flex no-wrap">
 
         <div class="filters-wrap flex" :class="{ 'shown': filtersOpen }" @pointerdown.stop >
-          <q-scroll-area :visible="false" class="fit">
+          <q-scroll-area class="fit">
 
           <div class="sticky filters-drawer-header flex justify-between q-mb-md">
           <div class="text-h6">Filters</div>

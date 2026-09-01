@@ -5,7 +5,6 @@
         <div class="flex nav-items-el">
           <!-- Desktop Navigation -->
           <q-toolbar-title class="nav-bar gt-sm">
-            <router-link v-if="isSuperAdmin" to="/admin" class="text-h6 no-decoration"><q-icon :name="matAdminPanelSettings" /> Go to Admin Panel</router-link>
             <router-link to="/" class="text-h6 no-decoration">My Shop</router-link>
             <router-link to="/products/" class="text-h6 no-decoration">Products</router-link>
             <router-link to="/cart/" class="text-h6 no-decoration">Cart</router-link>
@@ -41,8 +40,7 @@
 <script setup>
 import { matShoppingCart,
   matFavoriteBorder,
-  matMenu,
-  matAdminPanelSettings } from '@quasar/extras/material-icons'
+  matMenu } from '@quasar/extras/material-icons'
 import wishlist from 'src/stores/wishlist'
 import cart from 'src/stores/cart'
 

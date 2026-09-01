@@ -35,7 +35,7 @@ safelist: {
         // --- Header & Shadow Fixes ---
         'q-header--hidden',
         'q-layout__shadow',
-        'absolute-full',
+        /^absolute/,
         'fullscreen',
         'fixed-full',
         'no-pointer-events',
@@ -56,6 +56,7 @@ safelist: {
         // --- Utility Fixes ---
         'fit', 'scroll', 'no-scroll', 'hide-scrollbar',
         'row', 'column', 'flex', 'items-center', 'justify-center', 'no-wrap',
+        /^q-scrollarea/,
         /q-item/,           // Protects q-item, q-item-section, q-item-label
         /q-list/,
         /^q-img/,
@@ -111,9 +112,9 @@ safelist: {
         'q-transition--slide-up',
     ],
     deep: [
-        /q-btn/, /q-icon/, /q-ripple/, /q-scrollarea/, /q-layout__shadow/, /q-drawer/, /q-list/, /^q-carousel/, /q-spinner/, /q-menu/, /q-select/, /q-img/, /q-field/, /q-input/, /q-textarea/, /q-option-group/, /q-radio/, /q-checkbox/, /^q-range/, /^q-slider/, /^q-tabs/
+        /^q-scrollarea/, /q-btn/, /q-icon/, /q-ripple/, /q-scrollarea/, /q-layout__shadow/, /q-drawer/, /q-list/, /^q-carousel/, /q-spinner/, /q-menu/, /q-select/, /q-img/, /q-field/, /q-input/, /q-textarea/, /q-option-group/, /q-radio/, /q-checkbox/, /^q-range/, /^q-slider/, /^q-tabs/
     ],
-    greedy: [ /q-transition/, /rotate/, /^q-radio/, /^q-range/]
+    greedy: [ /^q-scrollarea/, /q-transition/, /rotate/, /^q-radio/, /^q-range/]
 },
       defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
     })

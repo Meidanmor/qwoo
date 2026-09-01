@@ -32,9 +32,16 @@ h1,
   flex-direction: column;
   position: sticky;
   top: 70px;
-  height: fit-content;
+  height: 70vh;
 }
-
+.sticky.filters-drawer-header {
+    position: sticky;
+    top: 0;
+    background: #ffffff;
+    z-index: 1;
+    width: 100%;
+    box-shadow: 0px 0px 15px #00000011;
+}
 .products-wrap .q-select {
   min-width: 160px;
 }
@@ -102,11 +109,6 @@ h1,
     .archive-layout {
         padding: 0 16px;
     }
-  .flex.justify-between.q-mb-md {
-    width: fit-content;
-    display: inline-flex;
-    align-items: center;
-  }
   .pagination-btns {
     width: 100%;
     margin-bottom: 20px;
