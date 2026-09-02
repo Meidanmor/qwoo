@@ -63,8 +63,6 @@ ensure your pieces last a lifetime.</p>
 <section ref="productSection" class="featured-products">
   <div class="container">
     <h2 class="q-mb-md">Featured Products</h2>
-
-    <!-- Interactive carousel AFTER hydration -->
     <AppCarousel
   v-model="productsCarousel.slide.value"
   :carousel-key="productsCarousel.carouselKey.value"
@@ -198,7 +196,7 @@ ensure your pieces last a lifetime.</p>
 </template>
 
 <script setup>
-import { ref, onMounted, watch, computed, useSSRContext } from 'vue'
+import { ref, onMounted, watch, computed, useSSRContext, onServerPrefetch } from 'vue'
 import { useQuasar } from 'quasar'
 import { useRoute, onBeforeRouteLeave } from 'vue-router'
 import productsStore from 'src/stores/products'
@@ -212,7 +210,6 @@ import {getApiOrigin} from "src/utils/server/get-api-origin.js";
 import {resolveHeroImageSrc} from 'src/utils/resolve-hero-image.js';
 import { sanitizeHeroTitle } from 'src/utils/sanitizeHtml.js'
 
-const isHydrated = ref(false)
 const $q = useQuasar()
 
 // Static, pre-hydration featured-products list. This is the single source of
@@ -315,21 +312,18 @@ const ctaBtn = ref(null)
 const email = ref('')
 
 // Helper: chunk array
-const productsCarousel = useCarousel(async () => {
-  if (typeof window !== 'undefined' && Array.isArray(window.__HOME_PRODUCTS_DATA__)) {
-    return window.__HOME_PRODUCTS_DATA__;
+const productsCarousel = useCarousel(() => {
+  if (staticFeaturedProducts.value?.length) {
+    return staticFeaturedProducts.value // plain array, no Promise
   }
-  const ids = homeSettings.value?.featured_products || []
-  if (ids.length) {
-    const missing = ids.filter(id => !productsStore.products.value.find(p => Number(p.id) === Number(id)))
-    if (missing.length) await productsStore.getFeaturedProducts(missing)
-    return ids.map(id => productsStore.products.value.find(p => Number(p.id) === Number(id))).filter(Boolean)
-  }
-  if (!productsStore.products.value.length) {
-    await productsStore.preFetchProducts({ api: true, per_page: 6, dryRun: false })
-  }
-  return productsStore.products.value.slice(0, 6)
-}, { isHydrated })
+  // Only this fallback path is genuinely async
+  return (async () => {
+    if (!productsStore.products.value.length) {
+      await productsStore.preFetchProducts({ api: true, per_page: 6, dryRun: false })
+    }
+    return productsStore.products.value.slice(0, 6)
+  })()
+})
 
 // ----------------- Testimonials & Instagram -----------------
 //const avatarSVG =
@@ -342,10 +336,7 @@ const testimonials = ref([
   { name: 'John Doe', feedback: 'Amazing quality!' },
   { name: 'Jane Smith', feedback: 'Will buy again.' }
 ])
-const testimonialsCarousel = useCarousel(
-  async () => testimonials.value,
-  { isHydrated }
-)
+const testimonialsCarousel = useCarousel( () => testimonials.value )
 
 
 // ----------------- Helpers -----------------
@@ -357,6 +348,14 @@ const subscribeNewsletter = () => {
     $q.notify({ type: 'negative', message: 'Please enter a valid email.', icon: matCheckCircle })
   }
 }
+
+productsCarousel.recompute()
+testimonialsCarousel.recompute()
+
+onServerPrefetch(async () => {
+  await productsCarousel.recompute(true)
+  await testimonialsCarousel.recompute(true)
+})
 
 // ----------------- Mounted -----------------
 onMounted(async() => {
@@ -373,54 +372,20 @@ onMounted(async() => {
       homeSettings.value = freshConfig
     }
   }
+  productsCarousel.markMounted()
+  testimonialsCarousel.markMounted()
+  productsCarousel.recompute(true)    // forceRemount now safely diverges from SSR output
+  testimonialsCarousel.recompute(true)
 
-  isHydrated.value = false
-  if (process.env.CLIENT) {
-    // COLD START: Wait for user interaction
-
-    const hydrateOnInteraction = () => {
-      if (isHydrated.value) return
-      requestIdleCallback(() => {
-        window.removeEventListener('scroll', hydrateOnInteraction)
-        window.removeEventListener('mousemove', hydrateOnInteraction)
-        window.removeEventListener('touchstart', hydrateOnInteraction)
-
-        requestAnimationFrame(async () => {
-          isHydrated.value = true
-        })
-
-        testimonialsCarousel.recompute(false)
-      })
-
-    }
-
-    window.addEventListener('scroll', hydrateOnInteraction, {passive: true})
-    window.addEventListener('mousemove', hydrateOnInteraction, {passive: true})
-    window.addEventListener('touchstart', hydrateOnInteraction, {passive: true})
-
-    // Safety fallback: Hydrate after 5 seconds if no interaction
-    setTimeout(hydrateOnInteraction, 5000)
-
-  }
 })
-
-watch(isHydrated, async (val) => {
-  if (!val) return
-  try {
-    await productsCarousel.recompute(true)
-    await testimonialsCarousel.recompute(true)
-  } catch (err) {
-    console.error('Hydration error:', err)
-  }
-}, )
-
 
 const stopProductsWatch = watch(
   [() => productsStore.products.value, () => $q.screen.name, () => homeSettings.value],
   () => {
-    if (!isHydrated.value) return
-    productsCarousel.recompute(false)
-    testimonialsCarousel.recompute(false)
+    productsCarousel.markMounted()
+    testimonialsCarousel.markMounted()
+    productsCarousel.recompute(true)    // forceRemount now safely diverges from SSR output
+    testimonialsCarousel.recompute(true)
   }
 )
 onBeforeRouteLeave(() => {

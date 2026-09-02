@@ -259,15 +259,13 @@ if (process.env.CLIENT) {
   }
 }
 
-const isHydrated = ref(process.env.CLIENT)
-
 const imagesCarousel = useCarousel(
   async () => product.value?.images,
     {
-      isHydrated,
       chunkSizes: { xs: 1, sm: 1, md: 1 }
     }
 )
+imagesCarousel.recompute()
 
 // 🟢 Run on SSR only
 // Inside your Page or Layout
