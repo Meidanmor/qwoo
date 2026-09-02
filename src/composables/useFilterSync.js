@@ -48,7 +48,7 @@ function buildQuery({ search, selectedCategory, priceRange, priceMin, priceMax, 
 
   const min = priceRange.value?.min
   const max = priceRange.value?.max
-  const boundsLoaded = priceMin.value !== null && priceMax.value !== null
+  const boundsLoaded = priceMin.value !== null && priceMax.value !== null && priceMin.value !== 0
   if (boundsLoaded) {
     if (min !== undefined && min !== priceMin.value) q.min_price = min
     if (max !== undefined && max !== priceMax.value) q.max_price = max
